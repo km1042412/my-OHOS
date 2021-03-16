@@ -1,6 +1,6 @@
 defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
 include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/zlib
-cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
 cflags_c = -std=c99
 target_output_name = libzlib_shared
 
@@ -24,7 +24,7 @@ build obj/third_party/zlib/contrib/minizip/unzip.o: cc ../../third_party/zlib/co
 build obj/third_party/zlib/contrib/minizip/zip.o: cc ../../third_party/zlib/contrib/minizip/zip.c
 
 build ./libzlib_shared.so: solink obj/third_party/zlib/adler32.o obj/third_party/zlib/compress.o obj/third_party/zlib/crc32.o obj/third_party/zlib/deflate.o obj/third_party/zlib/gzclose.o obj/third_party/zlib/gzlib.o obj/third_party/zlib/gzread.o obj/third_party/zlib/gzwrite.o obj/third_party/zlib/infback.o obj/third_party/zlib/inffast.o obj/third_party/zlib/inflate.o obj/third_party/zlib/inftrees.o obj/third_party/zlib/trees.o obj/third_party/zlib/uncompr.o obj/third_party/zlib/zutil.o obj/third_party/zlib/contrib/minizip/ioapi.o obj/third_party/zlib/contrib/minizip/unzip.o obj/third_party/zlib/contrib/minizip/zip.o
-  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/test/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/test/my-OHOS/out/ipcamera_hi3518ev300
   libs =
   output_extension = .so
   output_dir = .

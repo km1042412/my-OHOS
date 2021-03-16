@@ -1,15 +1,15 @@
 conformance/interfaces/pthread_mutexattr_setprioceiling/1-1 compile FAILED; SKIPPING
 ld.lld: error: undefined symbol: pthread_mutexattr_setprioceiling
 >>> referenced by 1-1.c
->>>               /tmp/1-1-33db89.o:(main)
+>>>               /tmp/1-1-1f56a1.o:(main)
 clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
 conformance/interfaces/pthread_mutexattr_setprioceiling/3-2 compile FAILED; SKIPPING
 ld.lld: error: undefined symbol: pthread_mutexattr_setprioceiling
 >>> referenced by 3-2.c
->>>               /tmp/3-2-e776f5.o:(main)
+>>>               /tmp/3-2-706055.o:(main)
 clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
 conformance/interfaces/pthread_mutexattr_setprioceiling/3-1 compile FAILED; SKIPPING
 ld.lld: error: undefined symbol: pthread_mutexattr_setprioceiling
 >>> referenced by 3-1.c
->>>               /tmp/3-1-8095bf.o:(main)
+>>>               /tmp/3-1-000a7d.o:(main)
 clang-9: error: linker command failed with exit code 1 (use -v to see invocation)

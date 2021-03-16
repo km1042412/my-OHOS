@@ -1,7 +1,7 @@
 ninja_required_version = 1.7.2
 
 rule gn
-  command = ../../../../../gn/gn --root=../.. -q --dotfile=../../build/lite/.gn gen .
+  command = ../../../../../../gn/gn --root=../.. -q --dotfile=../../build/lite/.gn gen .
   description = Regenerating ninja files
 
 build build.ninja: gn

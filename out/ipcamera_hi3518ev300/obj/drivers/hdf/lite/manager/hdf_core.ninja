@@ -1,6 +1,6 @@
 defines = -D__USER__ -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
 include_dirs = -I../../drivers/hdf/lite/adapter/syscall/include -I../../drivers/hdf/lite/adapter/vnode/include -I../../drivers/hdf/frameworks/core/shared/include -I../../drivers/hdf/frameworks/core/host/include -I../../drivers/hdf/frameworks/core/manager/include -I../../drivers/hdf/frameworks/ability/sbuf/include -I../../drivers/hdf/frameworks/include/core -I../../drivers/hdf/frameworks/include/utils -I../../drivers/hdf/frameworks/utils/include -I../../drivers/hdf/frameworks/include/osal -I../../third_party/bounds_checking_function/include -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/bounds_checking_function/include
-cflags = -Wall -Wextra -Werror -fsigned-char -fno-common -fno-strict-aliasing -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags = -Wall -Wextra -Werror -fsigned-char -fno-common -fno-strict-aliasing -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
 cflags_c = -std=c99
 target_output_name = libhdf_core
 
@@ -9,7 +9,7 @@ build obj/drivers/hdf/frameworks/ability/sbuf/src/hdf_sbuf.o: cc ../../drivers/h
 build obj/drivers/hdf/lite/adapter/syscall/src/hdf_syscall_adapter.o: cc ../../drivers/hdf/lite/adapter/syscall/src/hdf_syscall_adapter.c
 
 build ./libhdf_core.so: solink obj/drivers/hdf/frameworks/core/shared/src/hdf_io_service.o obj/drivers/hdf/frameworks/ability/sbuf/src/hdf_sbuf.o obj/drivers/hdf/lite/adapter/syscall/src/hdf_syscall_adapter.o ./libhdf_osal.so ./libsec_shared.so
-  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/test/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/test/my-OHOS/out/ipcamera_hi3518ev300
   libs =
   output_extension = .so
   output_dir = .

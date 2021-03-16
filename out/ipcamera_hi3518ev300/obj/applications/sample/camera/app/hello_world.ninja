@@ -1,6 +1,6 @@
 defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
 include_dirs = -I../../applications/sample/camera/app/include -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos
-cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
 cflags_c = -std=c99
 target_output_name = libhello_world
 

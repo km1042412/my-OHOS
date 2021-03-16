@@ -1,7 +1,7 @@
 defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
 include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/googletest/googletest/include
-cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
-cflags_cc = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -fexceptions -Oz -flto -std=c++11 -fPIE
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_cc = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -fexceptions -Oz -flto -std=c++11 -fPIE
 target_output_name = libhcpptest_main
 
 build obj/third_party/googletest/googletest/src/gtest_main.o: cxx ../../third_party/googletest/googletest/src/gtest_main.cc

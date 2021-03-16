@@ -4,7 +4,7 @@ target_output_name = apphilogcat
 
 
 build ./bin/apphilogcat: link ./libs/libapphilogcat_static.a ./libhilog_shared.so ./libsec_shared.so
-  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -pie
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/test/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/test/my-OHOS/out/ipcamera_hi3518ev300 -pie
   libs =
   output_extension = 
   output_dir = .

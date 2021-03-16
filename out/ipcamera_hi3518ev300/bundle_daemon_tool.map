@@ -94,15 +94,15 @@
     3e20     3e20        c     4         <internal>:(.eh_frame_hdr)
     3e2c     3e2c        4     4 .eh_frame
     4000     4000     5e9c     8 .text
-    4000     4000       24     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text)
+    4000     4000       24     4         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text)
     4000     4000        0     1                 $a.0
     4000     4000        0     1                 _start
     4020     4020        0     1                 $d.1
-    4024     4024       4c     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text._start_c)
+    4024     4024       4c     4         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text._start_c)
     4024     4024        0     1                 $a.2
     4024     4024       4c     1                 _start_c
     4064     4064        0     1                 $d.3
-    4070     4070        0     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.text)
+    4070     4070        0     4         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.text)
     4070     4070        0     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text)
     4070     4070       78     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text.__do_init)
     4070     4070        0     1                 $a.0
@@ -113,7 +113,7 @@
     40e8     40e8       6c     1                 __do_fini
     4144     4144        0     1                 $d.3
     4154     4154        0     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtend.o:(.text)
-    4154     4154        0     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.text)
+    4154     4154        0     4         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.text)
     4158     4158       2c     8         /home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos/libclang_rt.builtins.a(divsi3.S.o):(.text)
     4158     4158        0     1                 $a.0
     4158     4158       2c     1                 __aeabi_idiv
@@ -485,16 +485,16 @@
     9d6c     9d6c      130     1                 OHOS::ZipFile::SeekToEntryStart(OHOS::ZipEntry const&, unsigned short) const
     9e8c     9e8c        0     1                 $d.199
     9e9c     9e9c        c     1 .init
-    9e9c     9e9c        4     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.init)
+    9e9c     9e9c        4     1         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.init)
     9e9c     9e9c        0     1                 $a.0
     9e9c     9e9c        0     1                 _init
-    9ea0     9ea0        8     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.init)
+    9ea0     9ea0        8     1         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.init)
     9ea0     9ea0        0     1                 $a.0
     9ea8     9ea8        c     1 .fini
-    9ea8     9ea8        4     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.fini)
+    9ea8     9ea8        4     1         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.fini)
     9ea8     9ea8        0     1                 $a.1
     9ea8     9ea8        0     1                 _fini
-    9eac     9eac        8     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.fini)
+    9eac     9eac        8     1         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.fini)
     9eac     9eac        0     1                 $a.1
     9ec0     9ec0      5f0    16 .plt
     9ec0     9ec0      5f0    16         <internal>:(.plt)
@@ -572,7 +572,7 @@
        0        0       db     1 .comment
        0        0       db     1         <internal>:(.comment)
        0        0       38     1 .ARM.attributes
-       0        0       38     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.ARM.attributes)
+       0        0       38     1         /home/zr/workspace/gitHub/test/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.ARM.attributes)
        0        0     29e0     4 .symtab
        0        0     29e0     4         <internal>:(.symtab)
        0        0      10e     1 .shstrtab
