@@ -1,0 +1,2 @@
+conformance/interfaces/pthread_testcancel/1-1 compile PASSED
+conformance/interfaces/pthread_testcancel/2-1 compile PASSED

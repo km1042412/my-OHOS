@@ -1,0 +1,13 @@
+conformance/interfaces/sigqueue/1-1 compile PASSED
+conformance/interfaces/sigqueue/2-2 compile PASSED
+conformance/interfaces/sigqueue/12-1 compile PASSED
+conformance/interfaces/sigqueue/6-1 compile PASSED
+conformance/interfaces/sigqueue/7-1 compile PASSED
+conformance/interfaces/sigqueue/11-1 compile PASSED
+conformance/interfaces/sigqueue/9-1 compile PASSED
+conformance/interfaces/sigqueue/8-1 compile PASSED
+conformance/interfaces/sigqueue/2-1 compile PASSED
+conformance/interfaces/sigqueue/3-1 compile PASSED
+conformance/interfaces/sigqueue/10-1 compile PASSED
+conformance/interfaces/sigqueue/4-1 compile PASSED
+conformance/interfaces/sigqueue/5-1 compile PASSED

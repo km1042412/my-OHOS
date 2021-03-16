@@ -1,0 +1,4 @@
+conformance/interfaces/mlock/12-1 compile PASSED
+conformance/interfaces/mlock/8-1 compile PASSED
+conformance/interfaces/mlock/10-1 compile PASSED
+conformance/interfaces/mlock/5-1 compile PASSED

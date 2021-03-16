@@ -1,0 +1,51 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__ -DFT2_BUILD_LIBRARY
+include_dirs = -I../../third_party/freetype/include -I../../third_party/freetype/src/base -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags_c = -std=c99
+target_output_name = libfreetype
+
+build obj/third_party/freetype/src/autofit/autofit.o: cc ../../third_party/freetype/src/autofit/autofit.c
+build obj/third_party/freetype/src/base/ftbase.o: cc ../../third_party/freetype/src/base/ftbase.c
+build obj/third_party/freetype/src/base/ftbbox.o: cc ../../third_party/freetype/src/base/ftbbox.c
+build obj/third_party/freetype/src/base/ftbdf.o: cc ../../third_party/freetype/src/base/ftbdf.c
+build obj/third_party/freetype/src/base/ftbitmap.o: cc ../../third_party/freetype/src/base/ftbitmap.c
+build obj/third_party/freetype/src/base/ftcid.o: cc ../../third_party/freetype/src/base/ftcid.c
+build obj/third_party/freetype/src/base/ftfstype.o: cc ../../third_party/freetype/src/base/ftfstype.c
+build obj/third_party/freetype/src/base/ftgasp.o: cc ../../third_party/freetype/src/base/ftgasp.c
+build obj/third_party/freetype/src/base/ftglyph.o: cc ../../third_party/freetype/src/base/ftglyph.c
+build obj/third_party/freetype/src/base/ftgxval.o: cc ../../third_party/freetype/src/base/ftgxval.c
+build obj/third_party/freetype/src/base/ftinit.o: cc ../../third_party/freetype/src/base/ftinit.c
+build obj/third_party/freetype/src/base/ftmm.o: cc ../../third_party/freetype/src/base/ftmm.c
+build obj/third_party/freetype/src/base/ftotval.o: cc ../../third_party/freetype/src/base/ftotval.c
+build obj/third_party/freetype/src/base/ftpatent.o: cc ../../third_party/freetype/src/base/ftpatent.c
+build obj/third_party/freetype/src/base/ftpfr.o: cc ../../third_party/freetype/src/base/ftpfr.c
+build obj/third_party/freetype/src/base/ftstroke.o: cc ../../third_party/freetype/src/base/ftstroke.c
+build obj/third_party/freetype/src/base/ftsynth.o: cc ../../third_party/freetype/src/base/ftsynth.c
+build obj/third_party/freetype/src/base/ftsystem.o: cc ../../third_party/freetype/src/base/ftsystem.c
+build obj/third_party/freetype/src/base/fttype1.o: cc ../../third_party/freetype/src/base/fttype1.c
+build obj/third_party/freetype/src/base/ftwinfnt.o: cc ../../third_party/freetype/src/base/ftwinfnt.c
+build obj/third_party/freetype/src/base/ftdebug.o: cc ../../third_party/freetype/src/base/ftdebug.c
+build obj/third_party/freetype/src/bdf/bdf.o: cc ../../third_party/freetype/src/bdf/bdf.c
+build obj/third_party/freetype/src/cache/ftcache.o: cc ../../third_party/freetype/src/cache/ftcache.c
+build obj/third_party/freetype/src/cff/cff.o: cc ../../third_party/freetype/src/cff/cff.c
+build obj/third_party/freetype/src/cid/type1cid.o: cc ../../third_party/freetype/src/cid/type1cid.c
+build obj/third_party/freetype/src/gzip/ftgzip.o: cc ../../third_party/freetype/src/gzip/ftgzip.c
+build obj/third_party/freetype/src/lzw/ftlzw.o: cc ../../third_party/freetype/src/lzw/ftlzw.c
+build obj/third_party/freetype/src/pcf/pcf.o: cc ../../third_party/freetype/src/pcf/pcf.c
+build obj/third_party/freetype/src/pfr/pfr.o: cc ../../third_party/freetype/src/pfr/pfr.c
+build obj/third_party/freetype/src/psaux/psaux.o: cc ../../third_party/freetype/src/psaux/psaux.c
+build obj/third_party/freetype/src/pshinter/pshinter.o: cc ../../third_party/freetype/src/pshinter/pshinter.c
+build obj/third_party/freetype/src/psnames/psmodule.o: cc ../../third_party/freetype/src/psnames/psmodule.c
+build obj/third_party/freetype/src/raster/raster.o: cc ../../third_party/freetype/src/raster/raster.c
+build obj/third_party/freetype/src/sfnt/sfnt.o: cc ../../third_party/freetype/src/sfnt/sfnt.c
+build obj/third_party/freetype/src/smooth/smooth.o: cc ../../third_party/freetype/src/smooth/smooth.c
+build obj/third_party/freetype/src/truetype/truetype.o: cc ../../third_party/freetype/src/truetype/truetype.c
+build obj/third_party/freetype/src/type1/type1.o: cc ../../third_party/freetype/src/type1/type1.c
+build obj/third_party/freetype/src/type42/type42.o: cc ../../third_party/freetype/src/type42/type42.c
+build obj/third_party/freetype/src/winfonts/winfnt.o: cc ../../third_party/freetype/src/winfonts/winfnt.c
+
+build ./libfreetype.so: solink obj/third_party/freetype/src/autofit/autofit.o obj/third_party/freetype/src/base/ftbase.o obj/third_party/freetype/src/base/ftbbox.o obj/third_party/freetype/src/base/ftbdf.o obj/third_party/freetype/src/base/ftbitmap.o obj/third_party/freetype/src/base/ftcid.o obj/third_party/freetype/src/base/ftfstype.o obj/third_party/freetype/src/base/ftgasp.o obj/third_party/freetype/src/base/ftglyph.o obj/third_party/freetype/src/base/ftgxval.o obj/third_party/freetype/src/base/ftinit.o obj/third_party/freetype/src/base/ftmm.o obj/third_party/freetype/src/base/ftotval.o obj/third_party/freetype/src/base/ftpatent.o obj/third_party/freetype/src/base/ftpfr.o obj/third_party/freetype/src/base/ftstroke.o obj/third_party/freetype/src/base/ftsynth.o obj/third_party/freetype/src/base/ftsystem.o obj/third_party/freetype/src/base/fttype1.o obj/third_party/freetype/src/base/ftwinfnt.o obj/third_party/freetype/src/base/ftdebug.o obj/third_party/freetype/src/bdf/bdf.o obj/third_party/freetype/src/cache/ftcache.o obj/third_party/freetype/src/cff/cff.o obj/third_party/freetype/src/cid/type1cid.o obj/third_party/freetype/src/gzip/ftgzip.o obj/third_party/freetype/src/lzw/ftlzw.o obj/third_party/freetype/src/pcf/pcf.o obj/third_party/freetype/src/pfr/pfr.o obj/third_party/freetype/src/psaux/psaux.o obj/third_party/freetype/src/pshinter/pshinter.o obj/third_party/freetype/src/psnames/psmodule.o obj/third_party/freetype/src/raster/raster.o obj/third_party/freetype/src/sfnt/sfnt.o obj/third_party/freetype/src/smooth/smooth.o obj/third_party/freetype/src/truetype/truetype.o obj/third_party/freetype/src/type1/type1.o obj/third_party/freetype/src/type42/type42.o obj/third_party/freetype/src/winfonts/winfnt.o
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  libs =
+  output_extension = .so
+  output_dir = .

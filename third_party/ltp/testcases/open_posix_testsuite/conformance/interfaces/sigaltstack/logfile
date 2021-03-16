@@ -1,0 +1,11 @@
+conformance/interfaces/sigaltstack/1-1 compile PASSED
+conformance/interfaces/sigaltstack/12-1 compile PASSED
+conformance/interfaces/sigaltstack/6-1 compile PASSED
+conformance/interfaces/sigaltstack/7-1 compile PASSED
+conformance/interfaces/sigaltstack/11-1 compile PASSED
+conformance/interfaces/sigaltstack/9-1 compile PASSED
+conformance/interfaces/sigaltstack/8-1 compile PASSED
+conformance/interfaces/sigaltstack/2-1 compile PASSED
+conformance/interfaces/sigaltstack/3-1 compile PASSED
+conformance/interfaces/sigaltstack/10-1 compile PASSED
+conformance/interfaces/sigaltstack/5-1 compile PASSED

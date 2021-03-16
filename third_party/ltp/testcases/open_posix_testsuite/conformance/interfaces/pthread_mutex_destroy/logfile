@@ -1,0 +1,6 @@
+conformance/interfaces/pthread_mutex_destroy/1-1 compile PASSED
+conformance/interfaces/pthread_mutex_destroy/2-2 compile PASSED
+conformance/interfaces/pthread_mutex_destroy/2-1 compile PASSED
+conformance/interfaces/pthread_mutex_destroy/3-1 compile PASSED
+conformance/interfaces/pthread_mutex_destroy/5-2 compile PASSED
+conformance/interfaces/pthread_mutex_destroy/5-1 compile PASSED

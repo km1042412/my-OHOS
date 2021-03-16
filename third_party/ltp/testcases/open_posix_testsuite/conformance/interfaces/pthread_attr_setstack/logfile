@@ -1,0 +1,5 @@
+conformance/interfaces/pthread_attr_setstack/1-1 compile PASSED
+conformance/interfaces/pthread_attr_setstack/6-1 compile PASSED
+conformance/interfaces/pthread_attr_setstack/7-1 compile PASSED
+conformance/interfaces/pthread_attr_setstack/2-1 compile PASSED
+conformance/interfaces/pthread_attr_setstack/4-1 compile PASSED

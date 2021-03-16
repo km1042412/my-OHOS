@@ -1,0 +1,17 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I../../foundation/graphic/lite/interfaces/kits/config -I../../foundation/graphic/lite/services/ims/include -I../../third_party/bounds_checking_function/include -I../../foundation/graphic/lite/interfaces/kits/utils -I../../foundation/graphic/lite/utils/include -I../../drivers/hdf/lite/hdi/input/include -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/bounds_checking_function/include
+cflags = -fPIC -Wall -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags_cc = -fPIC -Wall -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -fexceptions -Oz -flto -std=c++11 -fPIC
+target_output_name = libims
+
+build obj/foundation/graphic/lite/services/ims/src/input_event_distributer.o: cxx ../../foundation/graphic/lite/services/ims/src/input_event_distributer.cpp || obj/vendor/huawei/hdf/input/hdi/hdi_input.stamp
+build obj/foundation/graphic/lite/services/ims/src/input_event_hub.o: cxx ../../foundation/graphic/lite/services/ims/src/input_event_hub.cpp || obj/vendor/huawei/hdf/input/hdi/hdi_input.stamp
+build obj/foundation/graphic/lite/services/ims/src/input_event_reader.o: cxx ../../foundation/graphic/lite/services/ims/src/input_event_reader.cpp || obj/vendor/huawei/hdf/input/hdi/hdi_input.stamp
+build obj/foundation/graphic/lite/services/ims/src/input_manager_service.o: cxx ../../foundation/graphic/lite/services/ims/src/input_manager_service.cpp || obj/vendor/huawei/hdf/input/hdi/hdi_input.stamp
+build obj/foundation/graphic/lite/utils/src/geometry2d.o: cxx ../../foundation/graphic/lite/utils/src/geometry2d.cpp || obj/vendor/huawei/hdf/input/hdi/hdi_input.stamp
+
+build ./libims.so: solink obj/foundation/graphic/lite/services/ims/src/input_event_distributer.o obj/foundation/graphic/lite/services/ims/src/input_event_hub.o obj/foundation/graphic/lite/services/ims/src/input_event_reader.o obj/foundation/graphic/lite/services/ims/src/input_manager_service.o obj/foundation/graphic/lite/utils/src/geometry2d.o ./libsec_shared.so ./libhdf_osal.so ./libgraphic_utils.so ./libhilog_shared.so || obj/foundation/graphic/lite/utils/litegraphicutils.stamp obj/vendor/huawei/hdf/input/hdi/hdi_input.stamp
+  ldflags = -lhdi_input -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  libs =
+  output_extension = .so
+  output_dir = .

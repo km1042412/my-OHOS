@@ -1,0 +1,7 @@
+conformance/interfaces/killpg/1-1 compile PASSED
+conformance/interfaces/killpg/6-1 compile PASSED
+conformance/interfaces/killpg/8-1 compile PASSED
+conformance/interfaces/killpg/2-1 compile PASSED
+conformance/interfaces/killpg/4-1 compile PASSED
+conformance/interfaces/killpg/1-2 compile PASSED
+conformance/interfaces/killpg/5-1 compile PASSED

@@ -1,0 +1,5 @@
+conformance/interfaces/sem_getvalue/1-1 compile PASSED
+conformance/interfaces/sem_getvalue/2-2 compile PASSED
+conformance/interfaces/sem_getvalue/2-1 compile PASSED
+conformance/interfaces/sem_getvalue/4-1 compile PASSED
+conformance/interfaces/sem_getvalue/5-1 compile PASSED

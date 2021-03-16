@@ -107,6 +107,7 @@ generate_makefile() {
 #
 
 # Path variables.
+CC := ${COMPILE_PATH}
 top_srcdir?=		`echo "$prereq_dir" | awk '{ gsub(/[^\/]+/, "..", $0); print }'`
 subdir=			$prereq_cache_dir
 srcdir=			\$(top_srcdir)/\$(subdir)
@@ -118,6 +119,7 @@ LOGFILE?=		logfile
 
 # Build variables
 CFLAGS+=		-I\$(top_srcdir)/include
+CFLAGS+=        --target=arm-liteos --sysroot=${BUILD_ROOT_PATH}prebuilts/lite/sysroot
 
 # XXX: for testfrmw.c -- needs to be moved into a library.
 CFLAGS+=		-I\$(srcdir)
@@ -303,6 +305,8 @@ TOP_SRCDIR=${TOP_SRCDIR:=`dirname "$0"`/..}
 GLOBAL_BOILERPLATE="${TOP_SRCDIR}/.global_boilerplate"
 
 CONFIG_MK="../../include/mk/config-openposix.mk"
+COMPILE_PATH=$1
+BUILD_ROOT_PATH=$2
 
 rm -f "$GLOBAL_BOILERPLATE"
 

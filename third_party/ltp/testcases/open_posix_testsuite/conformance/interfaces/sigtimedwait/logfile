@@ -1,0 +1,5 @@
+conformance/interfaces/sigtimedwait/1-1 compile PASSED
+conformance/interfaces/sigtimedwait/6-1 compile PASSED
+conformance/interfaces/sigtimedwait/2-1 compile PASSED
+conformance/interfaces/sigtimedwait/4-1 compile PASSED
+conformance/interfaces/sigtimedwait/5-1 compile PASSED

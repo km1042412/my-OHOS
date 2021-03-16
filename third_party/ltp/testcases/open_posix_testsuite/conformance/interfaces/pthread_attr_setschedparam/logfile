@@ -1,0 +1,4 @@
+conformance/interfaces/pthread_attr_setschedparam/1-1 compile PASSED
+conformance/interfaces/pthread_attr_setschedparam/1-3 compile PASSED
+conformance/interfaces/pthread_attr_setschedparam/1-4 compile PASSED
+conformance/interfaces/pthread_attr_setschedparam/1-2 compile PASSED

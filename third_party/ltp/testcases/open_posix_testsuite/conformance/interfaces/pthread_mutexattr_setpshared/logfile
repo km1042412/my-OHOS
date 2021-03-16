@@ -1,0 +1,6 @@
+conformance/interfaces/pthread_mutexattr_setpshared/1-1 compile PASSED
+conformance/interfaces/pthread_mutexattr_setpshared/2-2 compile PASSED
+conformance/interfaces/pthread_mutexattr_setpshared/3-2 compile PASSED
+conformance/interfaces/pthread_mutexattr_setpshared/2-1 compile PASSED
+conformance/interfaces/pthread_mutexattr_setpshared/3-1 compile PASSED
+conformance/interfaces/pthread_mutexattr_setpshared/1-2 compile PASSED

@@ -1,0 +1,22 @@
+defines = -DGTEST_HAS_CLONE=0 -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/googletest/googletest -I../../third_party/googletest/googletest/include
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_cc = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -fexceptions -Oz -flto -std=c++11 -fPIE
+target_output_name = libhcpptest
+
+build obj/third_party/googletest/googletest/src/gtest-death-test.o: cxx ../../third_party/googletest/googletest/src/gtest-death-test.cc
+build obj/third_party/googletest/googletest/src/gtest-filepath.o: cxx ../../third_party/googletest/googletest/src/gtest-filepath.cc
+build obj/third_party/googletest/googletest/src/gtest-port.o: cxx ../../third_party/googletest/googletest/src/gtest-port.cc
+build obj/third_party/googletest/googletest/src/gtest-printers.o: cxx ../../third_party/googletest/googletest/src/gtest-printers.cc
+build obj/third_party/googletest/googletest/src/gtest-test-part.o: cxx ../../third_party/googletest/googletest/src/gtest-test-part.cc
+build obj/third_party/googletest/googletest/src/gtest-typed-test.o: cxx ../../third_party/googletest/googletest/src/gtest-typed-test.cc
+build obj/third_party/googletest/googletest/src/gtest.o: cxx ../../third_party/googletest/googletest/src/gtest.cc
+build obj/third_party/googletest/googletest/src/hwext/gtest-ext.o: cxx ../../third_party/googletest/googletest/src/hwext/gtest-ext.cc
+build obj/third_party/googletest/googletest/src/hwext/gtest-filter.o: cxx ../../third_party/googletest/googletest/src/hwext/gtest-filter.cc
+build obj/third_party/googletest/googletest/src/hwext/gtest-tag.o: cxx ../../third_party/googletest/googletest/src/hwext/gtest-tag.cc
+build obj/third_party/googletest/googletest/src/hwext/gtest-utils.o: cxx ../../third_party/googletest/googletest/src/hwext/gtest-utils.cc
+
+build ./libs/libhcpptest.a: alink obj/third_party/googletest/googletest/src/gtest-death-test.o obj/third_party/googletest/googletest/src/gtest-filepath.o obj/third_party/googletest/googletest/src/gtest-port.o obj/third_party/googletest/googletest/src/gtest-printers.o obj/third_party/googletest/googletest/src/gtest-test-part.o obj/third_party/googletest/googletest/src/gtest-typed-test.o obj/third_party/googletest/googletest/src/gtest.o obj/third_party/googletest/googletest/src/hwext/gtest-ext.o obj/third_party/googletest/googletest/src/hwext/gtest-filter.o obj/third_party/googletest/googletest/src/hwext/gtest-tag.o obj/third_party/googletest/googletest/src/hwext/gtest-utils.o
+  arflags =
+  output_extension = .a
+  output_dir = ./libs

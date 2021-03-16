@@ -1,0 +1,14 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I../../base/global/frameworks/resmgr_lite/include -I../../base/global/interfaces/innerkits/resmgr_lite -I../../utils/native/lite/include -I../../utils/native/lite/memory -I../../third_party/bounds_checking_function/include -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/bounds_checking_function/include
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags_c = -std=c99
+target_output_name = libglobal_resmgr
+
+build obj/base/global/frameworks/resmgr_lite/src/global_utils.o: cc ../../base/global/frameworks/resmgr_lite/src/global_utils.c
+build obj/base/global/frameworks/resmgr_lite/src/global.o: cc ../../base/global/frameworks/resmgr_lite/src/global.c
+
+build ./libglobal_resmgr.so: solink obj/base/global/frameworks/resmgr_lite/src/global_utils.o obj/base/global/frameworks/resmgr_lite/src/global.o ./libsec_shared.so
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  libs =
+  output_extension = .so
+  output_dir = .

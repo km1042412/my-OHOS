@@ -1,0 +1,4 @@
+conformance/interfaces/mq_open/speculative/2-2 compile PASSED
+conformance/interfaces/mq_open/speculative/2-3 compile PASSED
+conformance/interfaces/mq_open/speculative/6-1 compile PASSED
+conformance/interfaces/mq_open/speculative/26-1 compile PASSED

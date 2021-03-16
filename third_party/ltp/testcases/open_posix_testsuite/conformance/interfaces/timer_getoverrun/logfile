@@ -1,0 +1,4 @@
+conformance/interfaces/timer_getoverrun/1-1 compile PASSED
+conformance/interfaces/timer_getoverrun/2-2 compile PASSED
+conformance/interfaces/timer_getoverrun/2-3 compile PASSED
+conformance/interfaces/timer_getoverrun/2-1 compile PASSED

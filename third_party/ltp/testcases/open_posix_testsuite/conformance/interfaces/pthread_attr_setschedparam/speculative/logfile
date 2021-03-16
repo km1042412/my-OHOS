@@ -1,0 +1,2 @@
+conformance/interfaces/pthread_attr_setschedparam/speculative/3-2 compile PASSED
+conformance/interfaces/pthread_attr_setschedparam/speculative/3-1 compile PASSED

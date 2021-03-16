@@ -1,0 +1,4 @@
+conformance/interfaces/pthread_key_create/1-1 compile PASSED
+conformance/interfaces/pthread_key_create/2-1 compile PASSED
+conformance/interfaces/pthread_key_create/3-1 compile PASSED
+conformance/interfaces/pthread_key_create/1-2 compile PASSED

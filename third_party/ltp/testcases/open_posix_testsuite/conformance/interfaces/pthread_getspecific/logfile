@@ -1,0 +1,2 @@
+conformance/interfaces/pthread_getspecific/1-1 compile PASSED
+conformance/interfaces/pthread_getspecific/3-1 compile PASSED

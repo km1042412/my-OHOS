@@ -1,0 +1,10 @@
+conformance/interfaces/shm_unlink/1-1 compile PASSED
+conformance/interfaces/shm_unlink/6-1 compile PASSED
+conformance/interfaces/shm_unlink/11-1 compile PASSED
+conformance/interfaces/shm_unlink/9-1 compile PASSED
+conformance/interfaces/shm_unlink/10-2 compile PASSED
+conformance/interfaces/shm_unlink/8-1 compile PASSED
+conformance/interfaces/shm_unlink/2-1 compile PASSED
+conformance/interfaces/shm_unlink/3-1 compile PASSED
+conformance/interfaces/shm_unlink/10-1 compile PASSED
+conformance/interfaces/shm_unlink/5-1 compile PASSED

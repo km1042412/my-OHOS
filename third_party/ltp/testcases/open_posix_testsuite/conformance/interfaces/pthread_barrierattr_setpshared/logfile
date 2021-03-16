@@ -1,0 +1,2 @@
+conformance/interfaces/pthread_barrierattr_setpshared/1-1 compile PASSED
+conformance/interfaces/pthread_barrierattr_setpshared/2-1 compile PASSED

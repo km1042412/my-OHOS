@@ -1,0 +1,3 @@
+conformance/interfaces/pthread_mutexattr_setprotocol/1-1 compile PASSED
+conformance/interfaces/pthread_mutexattr_setprotocol/3-2 compile PASSED
+conformance/interfaces/pthread_mutexattr_setprotocol/3-1 compile PASSED

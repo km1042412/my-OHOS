@@ -1,0 +1,4 @@
+conformance/interfaces/pthread_mutex_getprioceiling/1-1 compile PASSED
+conformance/interfaces/pthread_mutex_getprioceiling/3-2 compile PASSED
+conformance/interfaces/pthread_mutex_getprioceiling/3-1 compile PASSED
+conformance/interfaces/pthread_mutex_getprioceiling/3-3 compile PASSED

@@ -1,0 +1,15 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/openssl/include -I../../third_party/openssl/crypto/include -I../../third_party/openssl/crypto/ec -I../../third_party/openssl
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_c = -std=c99
+target_output_name = libopenssl
+
+build obj/third_party/openssl/crypto/cryptlib.o: cc ../../third_party/openssl/crypto/cryptlib.c
+build obj/third_party/openssl/crypto/ec/curve25519.o: cc ../../third_party/openssl/crypto/ec/curve25519.c
+build obj/third_party/openssl/crypto/mem_clr.o: cc ../../third_party/openssl/crypto/mem_clr.c
+build obj/third_party/openssl/crypto/sha/sha512.o: cc ../../third_party/openssl/crypto/sha/sha512.c
+
+build ./libs/libopenssl.a: alink obj/third_party/openssl/crypto/cryptlib.o obj/third_party/openssl/crypto/ec/curve25519.o obj/third_party/openssl/crypto/mem_clr.o obj/third_party/openssl/crypto/sha/sha512.o
+  arflags =
+  output_extension = .a
+  output_dir = ./libs

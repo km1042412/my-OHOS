@@ -1,0 +1,14 @@
+conformance/interfaces/pthread_sigmask/15-1 compile PASSED
+conformance/interfaces/pthread_sigmask/12-1 compile PASSED
+conformance/interfaces/pthread_sigmask/8-2 compile PASSED
+conformance/interfaces/pthread_sigmask/6-1 compile PASSED
+conformance/interfaces/pthread_sigmask/7-1 compile PASSED
+conformance/interfaces/pthread_sigmask/9-1 compile PASSED
+conformance/interfaces/pthread_sigmask/18-1 compile PASSED
+conformance/interfaces/pthread_sigmask/16-1 compile PASSED
+conformance/interfaces/pthread_sigmask/8-3 compile PASSED
+conformance/interfaces/pthread_sigmask/8-1 compile PASSED
+conformance/interfaces/pthread_sigmask/14-1 compile PASSED
+conformance/interfaces/pthread_sigmask/10-1 compile PASSED
+conformance/interfaces/pthread_sigmask/4-1 compile PASSED
+conformance/interfaces/pthread_sigmask/5-1 compile PASSED

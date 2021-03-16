@@ -1,0 +1,10 @@
+conformance/interfaces/sigset/1-1 compile PASSED
+conformance/interfaces/sigset/6-1 compile PASSED
+conformance/interfaces/sigset/7-1 compile PASSED
+conformance/interfaces/sigset/9-1 compile PASSED
+conformance/interfaces/sigset/8-1 compile PASSED
+conformance/interfaces/sigset/2-1 compile PASSED
+conformance/interfaces/sigset/3-1 compile PASSED
+conformance/interfaces/sigset/10-1 compile PASSED
+conformance/interfaces/sigset/4-1 compile PASSED
+conformance/interfaces/sigset/5-1 compile PASSED

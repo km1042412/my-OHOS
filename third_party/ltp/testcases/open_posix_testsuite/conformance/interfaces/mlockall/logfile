@@ -1,0 +1,6 @@
+conformance/interfaces/mlockall/15-1 compile PASSED
+conformance/interfaces/mlockall/13-1 compile PASSED
+conformance/interfaces/mlockall/13-2 compile PASSED
+conformance/interfaces/mlockall/8-1 compile PASSED
+conformance/interfaces/mlockall/3-7 compile PASSED
+conformance/interfaces/mlockall/3-6 compile PASSED

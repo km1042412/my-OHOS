@@ -1,0 +1,12 @@
+conformance/interfaces/sigprocmask/15-1 compile PASSED
+conformance/interfaces/sigprocmask/12-1 compile PASSED
+conformance/interfaces/sigprocmask/8-2 compile PASSED
+conformance/interfaces/sigprocmask/6-1 compile PASSED
+conformance/interfaces/sigprocmask/7-1 compile PASSED
+conformance/interfaces/sigprocmask/9-1 compile PASSED
+conformance/interfaces/sigprocmask/8-3 compile PASSED
+conformance/interfaces/sigprocmask/8-1 compile PASSED
+conformance/interfaces/sigprocmask/17-1 compile PASSED
+conformance/interfaces/sigprocmask/10-1 compile PASSED
+conformance/interfaces/sigprocmask/4-1 compile PASSED
+conformance/interfaces/sigprocmask/5-1 compile PASSED

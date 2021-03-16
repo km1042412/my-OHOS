@@ -1,0 +1,7 @@
+conformance/interfaces/clock_getres/1-1 compile PASSED
+conformance/interfaces/clock_getres/6-1 compile PASSED
+conformance/interfaces/clock_getres/7-1 compile PASSED
+conformance/interfaces/clock_getres/6-2 compile PASSED
+conformance/interfaces/clock_getres/8-1 compile PASSED
+conformance/interfaces/clock_getres/3-1 compile PASSED
+conformance/interfaces/clock_getres/5-1 compile PASSED

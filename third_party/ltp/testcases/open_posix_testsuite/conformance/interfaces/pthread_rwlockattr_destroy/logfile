@@ -1,0 +1,2 @@
+conformance/interfaces/pthread_rwlockattr_destroy/1-1 compile PASSED
+conformance/interfaces/pthread_rwlockattr_destroy/2-1 compile PASSED

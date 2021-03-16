@@ -1,0 +1,10 @@
+conformance/interfaces/pthread_exit/1-1 compile PASSED
+conformance/interfaces/pthread_exit/2-2 compile PASSED
+conformance/interfaces/pthread_exit/3-2 compile PASSED
+conformance/interfaces/pthread_exit/6-1 compile PASSED
+conformance/interfaces/pthread_exit/6-2 compile PASSED
+conformance/interfaces/pthread_exit/2-1 compile PASSED
+conformance/interfaces/pthread_exit/3-1 compile PASSED
+conformance/interfaces/pthread_exit/4-1 compile PASSED
+conformance/interfaces/pthread_exit/1-2 compile PASSED
+conformance/interfaces/pthread_exit/5-1 compile PASSED

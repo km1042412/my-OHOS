@@ -1,0 +1,8 @@
+conformance/interfaces/timer_create/1-1 compile PASSED
+conformance/interfaces/timer_create/7-1 compile PASSED
+conformance/interfaces/timer_create/11-1 compile PASSED
+conformance/interfaces/timer_create/9-1 compile PASSED
+conformance/interfaces/timer_create/16-1 compile PASSED
+conformance/interfaces/timer_create/8-1 compile PASSED
+conformance/interfaces/timer_create/3-1 compile PASSED
+conformance/interfaces/timer_create/10-1 compile PASSED

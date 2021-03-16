@@ -1,0 +1,17 @@
+defines = -D__USER__ -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I../../drivers/hdf/frameworks/include -I../../drivers/hdf/frameworks/include/osal -I../../drivers/hdf/frameworks/include/utils -I../../third_party/musl/include -I../../third_party/bounds_checking_function/include -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/bounds_checking_function/include
+cflags = -Wall -Wextra -Werror -fsigned-char -fno-common -fno-strict-aliasing -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags_c = -std=c99
+target_output_name = libhdf_osal
+
+build obj/drivers/hdf/lite/adapter/osal/posix/src/osal_mem.o: cc ../../drivers/hdf/lite/adapter/osal/posix/src/osal_mem.c
+build obj/drivers/hdf/lite/adapter/osal/posix/src/osal_mutex.o: cc ../../drivers/hdf/lite/adapter/osal/posix/src/osal_mutex.c
+build obj/drivers/hdf/lite/adapter/osal/posix/src/osal_sem.o: cc ../../drivers/hdf/lite/adapter/osal/posix/src/osal_sem.c
+build obj/drivers/hdf/lite/adapter/osal/posix/src/osal_thread.o: cc ../../drivers/hdf/lite/adapter/osal/posix/src/osal_thread.c
+build obj/drivers/hdf/lite/adapter/osal/posix/src/osal_time.o: cc ../../drivers/hdf/lite/adapter/osal/posix/src/osal_time.c
+
+build ./libhdf_osal.so: solink obj/drivers/hdf/lite/adapter/osal/posix/src/osal_mem.o obj/drivers/hdf/lite/adapter/osal/posix/src/osal_mutex.o obj/drivers/hdf/lite/adapter/osal/posix/src/osal_sem.o obj/drivers/hdf/lite/adapter/osal/posix/src/osal_thread.o obj/drivers/hdf/lite/adapter/osal/posix/src/osal_time.o ./libsec_shared.so
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  libs =
+  output_extension = .so
+  output_dir = .

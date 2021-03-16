@@ -1,0 +1,67 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/libjpeg
+cflags = -fPIC -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags_c = -std=c99
+target_output_name = libjpeg
+
+build obj/third_party/libjpeg/cdjpeg.o: cc ../../third_party/libjpeg/cdjpeg.c
+build obj/third_party/libjpeg/jaricom.o: cc ../../third_party/libjpeg/jaricom.c
+build obj/third_party/libjpeg/jcapimin.o: cc ../../third_party/libjpeg/jcapimin.c
+build obj/third_party/libjpeg/jcapistd.o: cc ../../third_party/libjpeg/jcapistd.c
+build obj/third_party/libjpeg/jcarith.o: cc ../../third_party/libjpeg/jcarith.c
+build obj/third_party/libjpeg/jccoefct.o: cc ../../third_party/libjpeg/jccoefct.c
+build obj/third_party/libjpeg/jccolor.o: cc ../../third_party/libjpeg/jccolor.c
+build obj/third_party/libjpeg/jcdctmgr.o: cc ../../third_party/libjpeg/jcdctmgr.c
+build obj/third_party/libjpeg/jchuff.o: cc ../../third_party/libjpeg/jchuff.c
+build obj/third_party/libjpeg/jcinit.o: cc ../../third_party/libjpeg/jcinit.c
+build obj/third_party/libjpeg/jcmainct.o: cc ../../third_party/libjpeg/jcmainct.c
+build obj/third_party/libjpeg/jcmarker.o: cc ../../third_party/libjpeg/jcmarker.c
+build obj/third_party/libjpeg/jcmaster.o: cc ../../third_party/libjpeg/jcmaster.c
+build obj/third_party/libjpeg/jcomapi.o: cc ../../third_party/libjpeg/jcomapi.c
+build obj/third_party/libjpeg/jcparam.o: cc ../../third_party/libjpeg/jcparam.c
+build obj/third_party/libjpeg/jcprepct.o: cc ../../third_party/libjpeg/jcprepct.c
+build obj/third_party/libjpeg/jcsample.o: cc ../../third_party/libjpeg/jcsample.c
+build obj/third_party/libjpeg/jctrans.o: cc ../../third_party/libjpeg/jctrans.c
+build obj/third_party/libjpeg/jdapimin.o: cc ../../third_party/libjpeg/jdapimin.c
+build obj/third_party/libjpeg/jdapistd.o: cc ../../third_party/libjpeg/jdapistd.c
+build obj/third_party/libjpeg/jdarith.o: cc ../../third_party/libjpeg/jdarith.c
+build obj/third_party/libjpeg/jdatadst.o: cc ../../third_party/libjpeg/jdatadst.c
+build obj/third_party/libjpeg/jdatasrc.o: cc ../../third_party/libjpeg/jdatasrc.c
+build obj/third_party/libjpeg/jdcoefct.o: cc ../../third_party/libjpeg/jdcoefct.c
+build obj/third_party/libjpeg/jdcolor.o: cc ../../third_party/libjpeg/jdcolor.c
+build obj/third_party/libjpeg/jddctmgr.o: cc ../../third_party/libjpeg/jddctmgr.c
+build obj/third_party/libjpeg/jdhuff.o: cc ../../third_party/libjpeg/jdhuff.c
+build obj/third_party/libjpeg/jdinput.o: cc ../../third_party/libjpeg/jdinput.c
+build obj/third_party/libjpeg/jdmainct.o: cc ../../third_party/libjpeg/jdmainct.c
+build obj/third_party/libjpeg/jdmarker.o: cc ../../third_party/libjpeg/jdmarker.c
+build obj/third_party/libjpeg/jdmaster.o: cc ../../third_party/libjpeg/jdmaster.c
+build obj/third_party/libjpeg/jdmerge.o: cc ../../third_party/libjpeg/jdmerge.c
+build obj/third_party/libjpeg/jdpostct.o: cc ../../third_party/libjpeg/jdpostct.c
+build obj/third_party/libjpeg/jdsample.o: cc ../../third_party/libjpeg/jdsample.c
+build obj/third_party/libjpeg/jdtrans.o: cc ../../third_party/libjpeg/jdtrans.c
+build obj/third_party/libjpeg/jerror.o: cc ../../third_party/libjpeg/jerror.c
+build obj/third_party/libjpeg/jfdctflt.o: cc ../../third_party/libjpeg/jfdctflt.c
+build obj/third_party/libjpeg/jfdctfst.o: cc ../../third_party/libjpeg/jfdctfst.c
+build obj/third_party/libjpeg/jfdctint.o: cc ../../third_party/libjpeg/jfdctint.c
+build obj/third_party/libjpeg/jidctflt.o: cc ../../third_party/libjpeg/jidctflt.c
+build obj/third_party/libjpeg/jidctfst.o: cc ../../third_party/libjpeg/jidctfst.c
+build obj/third_party/libjpeg/jidctint.o: cc ../../third_party/libjpeg/jidctint.c
+build obj/third_party/libjpeg/jmemansi.o: cc ../../third_party/libjpeg/jmemansi.c
+build obj/third_party/libjpeg/jmemmgr.o: cc ../../third_party/libjpeg/jmemmgr.c
+build obj/third_party/libjpeg/jquant1.o: cc ../../third_party/libjpeg/jquant1.c
+build obj/third_party/libjpeg/jquant2.o: cc ../../third_party/libjpeg/jquant2.c
+build obj/third_party/libjpeg/jutils.o: cc ../../third_party/libjpeg/jutils.c
+build obj/third_party/libjpeg/rdbmp.o: cc ../../third_party/libjpeg/rdbmp.c
+build obj/third_party/libjpeg/rdcolmap.o: cc ../../third_party/libjpeg/rdcolmap.c
+build obj/third_party/libjpeg/rdgif.o: cc ../../third_party/libjpeg/rdgif.c
+build obj/third_party/libjpeg/rdppm.o: cc ../../third_party/libjpeg/rdppm.c
+build obj/third_party/libjpeg/rdrle.o: cc ../../third_party/libjpeg/rdrle.c
+build obj/third_party/libjpeg/rdswitch.o: cc ../../third_party/libjpeg/rdswitch.c
+build obj/third_party/libjpeg/rdtarga.o: cc ../../third_party/libjpeg/rdtarga.c
+build obj/third_party/libjpeg/transupp.o: cc ../../third_party/libjpeg/transupp.c
+
+build ./libjpeg.so: solink obj/third_party/libjpeg/cdjpeg.o obj/third_party/libjpeg/jaricom.o obj/third_party/libjpeg/jcapimin.o obj/third_party/libjpeg/jcapistd.o obj/third_party/libjpeg/jcarith.o obj/third_party/libjpeg/jccoefct.o obj/third_party/libjpeg/jccolor.o obj/third_party/libjpeg/jcdctmgr.o obj/third_party/libjpeg/jchuff.o obj/third_party/libjpeg/jcinit.o obj/third_party/libjpeg/jcmainct.o obj/third_party/libjpeg/jcmarker.o obj/third_party/libjpeg/jcmaster.o obj/third_party/libjpeg/jcomapi.o obj/third_party/libjpeg/jcparam.o obj/third_party/libjpeg/jcprepct.o obj/third_party/libjpeg/jcsample.o obj/third_party/libjpeg/jctrans.o obj/third_party/libjpeg/jdapimin.o obj/third_party/libjpeg/jdapistd.o obj/third_party/libjpeg/jdarith.o obj/third_party/libjpeg/jdatadst.o obj/third_party/libjpeg/jdatasrc.o obj/third_party/libjpeg/jdcoefct.o obj/third_party/libjpeg/jdcolor.o obj/third_party/libjpeg/jddctmgr.o obj/third_party/libjpeg/jdhuff.o obj/third_party/libjpeg/jdinput.o obj/third_party/libjpeg/jdmainct.o obj/third_party/libjpeg/jdmarker.o obj/third_party/libjpeg/jdmaster.o obj/third_party/libjpeg/jdmerge.o obj/third_party/libjpeg/jdpostct.o obj/third_party/libjpeg/jdsample.o obj/third_party/libjpeg/jdtrans.o obj/third_party/libjpeg/jerror.o obj/third_party/libjpeg/jfdctflt.o obj/third_party/libjpeg/jfdctfst.o obj/third_party/libjpeg/jfdctint.o obj/third_party/libjpeg/jidctflt.o obj/third_party/libjpeg/jidctfst.o obj/third_party/libjpeg/jidctint.o obj/third_party/libjpeg/jmemansi.o obj/third_party/libjpeg/jmemmgr.o obj/third_party/libjpeg/jquant1.o obj/third_party/libjpeg/jquant2.o obj/third_party/libjpeg/jutils.o obj/third_party/libjpeg/rdbmp.o obj/third_party/libjpeg/rdcolmap.o obj/third_party/libjpeg/rdgif.o obj/third_party/libjpeg/rdppm.o obj/third_party/libjpeg/rdrle.o obj/third_party/libjpeg/rdswitch.o obj/third_party/libjpeg/rdtarga.o obj/third_party/libjpeg/transupp.o
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  libs =
+  output_extension = .so
+  output_dir = .

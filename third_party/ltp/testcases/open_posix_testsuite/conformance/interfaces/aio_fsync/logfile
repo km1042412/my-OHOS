@@ -1,0 +1,11 @@
+conformance/interfaces/aio_fsync/8-4 compile PASSED
+conformance/interfaces/aio_fsync/12-1 compile PASSED
+conformance/interfaces/aio_fsync/8-2 compile PASSED
+conformance/interfaces/aio_fsync/9-1 compile PASSED
+conformance/interfaces/aio_fsync/8-3 compile PASSED
+conformance/interfaces/aio_fsync/8-1 compile PASSED
+conformance/interfaces/aio_fsync/14-1 compile PASSED
+conformance/interfaces/aio_fsync/2-1 compile PASSED
+conformance/interfaces/aio_fsync/3-1 compile PASSED
+conformance/interfaces/aio_fsync/4-1 compile PASSED
+conformance/interfaces/aio_fsync/5-1 compile PASSED

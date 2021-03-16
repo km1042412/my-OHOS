@@ -1,0 +1,2 @@
+conformance/interfaces/clock_settime/speculative/4-4 compile PASSED
+conformance/interfaces/clock_settime/speculative/4-3 compile PASSED

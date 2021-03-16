@@ -1,0 +1,7 @@
+conformance/interfaces/pthread_mutex_init/1-1 compile PASSED
+conformance/interfaces/pthread_mutex_init/3-2 compile PASSED
+conformance/interfaces/pthread_mutex_init/2-1 compile PASSED
+conformance/interfaces/pthread_mutex_init/3-1 compile PASSED
+conformance/interfaces/pthread_mutex_init/4-1 compile PASSED
+conformance/interfaces/pthread_mutex_init/1-2 compile PASSED
+conformance/interfaces/pthread_mutex_init/5-1 compile PASSED

@@ -1,0 +1,7 @@
+conformance/interfaces/pthread_kill/1-1 compile PASSED
+conformance/interfaces/pthread_kill/6-1 compile PASSED
+conformance/interfaces/pthread_kill/7-1 compile PASSED
+conformance/interfaces/pthread_kill/8-1 compile PASSED
+conformance/interfaces/pthread_kill/2-1 compile PASSED
+conformance/interfaces/pthread_kill/3-1 compile PASSED
+conformance/interfaces/pthread_kill/1-2 compile PASSED

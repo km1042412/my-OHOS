@@ -1,0 +1,6 @@
+conformance/interfaces/pthread_rwlock_timedwrlock/1-1 compile PASSED
+conformance/interfaces/pthread_rwlock_timedwrlock/6-1 compile PASSED
+conformance/interfaces/pthread_rwlock_timedwrlock/6-2 compile PASSED
+conformance/interfaces/pthread_rwlock_timedwrlock/2-1 compile PASSED
+conformance/interfaces/pthread_rwlock_timedwrlock/3-1 compile PASSED
+conformance/interfaces/pthread_rwlock_timedwrlock/5-1 compile PASSED

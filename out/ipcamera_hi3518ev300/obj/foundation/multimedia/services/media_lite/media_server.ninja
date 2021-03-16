@@ -1,0 +1,13 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I../../third_party/bounds_checking_function/include -I../../foundation/multimedia/hals/camera_lite -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos
+cflags = -Wall -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_cc = -Wall -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -fexceptions -Oz -flto -std=c++11 -fPIE
+target_output_name = media_server
+
+build obj/foundation/multimedia/services/media_lite/media_main.o: cxx ../../foundation/multimedia/services/media_lite/media_main.cpp || obj/vendor/hisi/hi35xx/hi3518ev300/hi3518ev300_adapter/hals/multimedia/hdi_media.stamp
+
+build ./bin/media_server: link obj/foundation/multimedia/services/media_lite/media_main.o || obj/vendor/hisi/hi35xx/hi3518ev300/hi3518ev300_adapter/hals/multimedia/hdi_media.stamp
+  ldflags = -Wl,-Map=media_server.map -lstdc++ -lhdi_media -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS////out/ipcamera_hi3518ev300 -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -pie
+  libs =
+  output_extension = 
+  output_dir = .

@@ -1,0 +1,3 @@
+conformance/interfaces/pthread_attr_setscope/1-1 compile PASSED
+conformance/interfaces/pthread_attr_setscope/4-1 compile PASSED
+conformance/interfaces/pthread_attr_setscope/5-1 compile PASSED

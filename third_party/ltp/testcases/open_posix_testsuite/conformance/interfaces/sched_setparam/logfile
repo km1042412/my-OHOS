@@ -1,0 +1,34 @@
+conformance/interfaces/sched_setparam/25-2 compile FAILED; SKIPPING
+../../../conformance/interfaces/sched_setparam/25-2.c:85:2: error: "_POSIX_SPORADIC_SERVER support not defined"
+#error "_POSIX_SPORADIC_SERVER support not defined"
+ ^
+1 error generated.
+conformance/interfaces/sched_setparam/1-1 compile PASSED
+conformance/interfaces/sched_setparam/23-5 compile PASSED
+conformance/interfaces/sched_setparam/2-2 compile PASSED
+conformance/interfaces/sched_setparam/23-3 compile PASSED
+conformance/interfaces/sched_setparam/25-4 compile FAILED; SKIPPING
+../../../conformance/interfaces/sched_setparam/25-4.c:86:2: error: "_POSIX_SPORADIC_SERVER not defined properly"
+#error "_POSIX_SPORADIC_SERVER not defined properly"
+ ^
+1 error generated.
+conformance/interfaces/sched_setparam/23-6 compile PASSED
+conformance/interfaces/sched_setparam/9-1 compile PASSED
+conformance/interfaces/sched_setparam/27-1 compile PASSED
+conformance/interfaces/sched_setparam/25-3 compile FAILED; SKIPPING
+../../../conformance/interfaces/sched_setparam/25-3.c:68:2: error: "_POSIX_SPORADIC_SERVER not defined correctly"
+#error "_POSIX_SPORADIC_SERVER not defined correctly"
+ ^
+1 error generated.
+conformance/interfaces/sched_setparam/25-1 compile PASSED
+conformance/interfaces/sched_setparam/20-1 compile PASSED
+conformance/interfaces/sched_setparam/2-1 compile PASSED
+conformance/interfaces/sched_setparam/23-4 compile PASSED
+conformance/interfaces/sched_setparam/26-1 compile PASSED
+conformance/interfaces/sched_setparam/23-2 compile PASSED
+conformance/interfaces/sched_setparam/5-1 compile PASSED
+conformance/interfaces/sched_setparam/21-1 compile PASSED
+conformance/interfaces/sched_setparam/23-7 compile PASSED
+conformance/interfaces/sched_setparam/21-2 compile PASSED
+conformance/interfaces/sched_setparam/22-1 compile PASSED
+conformance/interfaces/sched_setparam/23-1 compile PASSED

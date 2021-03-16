@@ -1,0 +1,51 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/bounds_checking_function/include
+cflags = -fPIC -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIC
+cflags_c = -std=c99
+target_output_name = libsec_shared
+
+build obj/third_party/bounds_checking_function/src/vsscanf_s.o: cc ../../third_party/bounds_checking_function/src/vsscanf_s.c
+build obj/third_party/bounds_checking_function/src/wcsncpy_s.o: cc ../../third_party/bounds_checking_function/src/wcsncpy_s.c
+build obj/third_party/bounds_checking_function/src/wmemmove_s.o: cc ../../third_party/bounds_checking_function/src/wmemmove_s.c
+build obj/third_party/bounds_checking_function/src/swscanf_s.o: cc ../../third_party/bounds_checking_function/src/swscanf_s.c
+build obj/third_party/bounds_checking_function/src/vsnprintf_s.o: cc ../../third_party/bounds_checking_function/src/vsnprintf_s.c
+build obj/third_party/bounds_checking_function/src/swprintf_s.o: cc ../../third_party/bounds_checking_function/src/swprintf_s.c
+build obj/third_party/bounds_checking_function/src/fwscanf_s.o: cc ../../third_party/bounds_checking_function/src/fwscanf_s.c
+build obj/third_party/bounds_checking_function/src/secureinput_a.o: cc ../../third_party/bounds_checking_function/src/secureinput_a.c
+build obj/third_party/bounds_checking_function/src/sprintf_s.o: cc ../../third_party/bounds_checking_function/src/sprintf_s.c
+build obj/third_party/bounds_checking_function/src/vfscanf_s.o: cc ../../third_party/bounds_checking_function/src/vfscanf_s.c
+build obj/third_party/bounds_checking_function/src/snprintf_s.o: cc ../../third_party/bounds_checking_function/src/snprintf_s.c
+build obj/third_party/bounds_checking_function/src/wcstok_s.o: cc ../../third_party/bounds_checking_function/src/wcstok_s.c
+build obj/third_party/bounds_checking_function/src/secureprintoutput_w.o: cc ../../third_party/bounds_checking_function/src/secureprintoutput_w.c
+build obj/third_party/bounds_checking_function/src/vfwscanf_s.o: cc ../../third_party/bounds_checking_function/src/vfwscanf_s.c
+build obj/third_party/bounds_checking_function/src/vwscanf_s.o: cc ../../third_party/bounds_checking_function/src/vwscanf_s.c
+build obj/third_party/bounds_checking_function/src/memmove_s.o: cc ../../third_party/bounds_checking_function/src/memmove_s.c
+build obj/third_party/bounds_checking_function/src/strcpy_s.o: cc ../../third_party/bounds_checking_function/src/strcpy_s.c
+build obj/third_party/bounds_checking_function/src/wmemcpy_s.o: cc ../../third_party/bounds_checking_function/src/wmemcpy_s.c
+build obj/third_party/bounds_checking_function/src/fscanf_s.o: cc ../../third_party/bounds_checking_function/src/fscanf_s.c
+build obj/third_party/bounds_checking_function/src/strcat_s.o: cc ../../third_party/bounds_checking_function/src/strcat_s.c
+build obj/third_party/bounds_checking_function/src/memcpy_s.o: cc ../../third_party/bounds_checking_function/src/memcpy_s.c
+build obj/third_party/bounds_checking_function/src/scanf_s.o: cc ../../third_party/bounds_checking_function/src/scanf_s.c
+build obj/third_party/bounds_checking_function/src/securecutil.o: cc ../../third_party/bounds_checking_function/src/securecutil.c
+build obj/third_party/bounds_checking_function/src/wcsncat_s.o: cc ../../third_party/bounds_checking_function/src/wcsncat_s.c
+build obj/third_party/bounds_checking_function/src/vswscanf_s.o: cc ../../third_party/bounds_checking_function/src/vswscanf_s.c
+build obj/third_party/bounds_checking_function/src/strncpy_s.o: cc ../../third_party/bounds_checking_function/src/strncpy_s.c
+build obj/third_party/bounds_checking_function/src/gets_s.o: cc ../../third_party/bounds_checking_function/src/gets_s.c
+build obj/third_party/bounds_checking_function/src/wcscpy_s.o: cc ../../third_party/bounds_checking_function/src/wcscpy_s.c
+build obj/third_party/bounds_checking_function/src/vswprintf_s.o: cc ../../third_party/bounds_checking_function/src/vswprintf_s.c
+build obj/third_party/bounds_checking_function/src/strncat_s.o: cc ../../third_party/bounds_checking_function/src/strncat_s.c
+build obj/third_party/bounds_checking_function/src/strtok_s.o: cc ../../third_party/bounds_checking_function/src/strtok_s.c
+build obj/third_party/bounds_checking_function/src/secureinput_w.o: cc ../../third_party/bounds_checking_function/src/secureinput_w.c
+build obj/third_party/bounds_checking_function/src/vscanf_s.o: cc ../../third_party/bounds_checking_function/src/vscanf_s.c
+build obj/third_party/bounds_checking_function/src/wcscat_s.o: cc ../../third_party/bounds_checking_function/src/wcscat_s.c
+build obj/third_party/bounds_checking_function/src/secureprintoutput_a.o: cc ../../third_party/bounds_checking_function/src/secureprintoutput_a.c
+build obj/third_party/bounds_checking_function/src/wscanf_s.o: cc ../../third_party/bounds_checking_function/src/wscanf_s.c
+build obj/third_party/bounds_checking_function/src/memset_s.o: cc ../../third_party/bounds_checking_function/src/memset_s.c
+build obj/third_party/bounds_checking_function/src/sscanf_s.o: cc ../../third_party/bounds_checking_function/src/sscanf_s.c
+build obj/third_party/bounds_checking_function/src/vsprintf_s.o: cc ../../third_party/bounds_checking_function/src/vsprintf_s.c
+
+build ./libsec_shared.so: solink obj/third_party/bounds_checking_function/src/vsscanf_s.o obj/third_party/bounds_checking_function/src/wcsncpy_s.o obj/third_party/bounds_checking_function/src/wmemmove_s.o obj/third_party/bounds_checking_function/src/swscanf_s.o obj/third_party/bounds_checking_function/src/vsnprintf_s.o obj/third_party/bounds_checking_function/src/swprintf_s.o obj/third_party/bounds_checking_function/src/fwscanf_s.o obj/third_party/bounds_checking_function/src/secureinput_a.o obj/third_party/bounds_checking_function/src/sprintf_s.o obj/third_party/bounds_checking_function/src/vfscanf_s.o obj/third_party/bounds_checking_function/src/snprintf_s.o obj/third_party/bounds_checking_function/src/wcstok_s.o obj/third_party/bounds_checking_function/src/secureprintoutput_w.o obj/third_party/bounds_checking_function/src/vfwscanf_s.o obj/third_party/bounds_checking_function/src/vwscanf_s.o obj/third_party/bounds_checking_function/src/memmove_s.o obj/third_party/bounds_checking_function/src/strcpy_s.o obj/third_party/bounds_checking_function/src/wmemcpy_s.o obj/third_party/bounds_checking_function/src/fscanf_s.o obj/third_party/bounds_checking_function/src/strcat_s.o obj/third_party/bounds_checking_function/src/memcpy_s.o obj/third_party/bounds_checking_function/src/scanf_s.o obj/third_party/bounds_checking_function/src/securecutil.o obj/third_party/bounds_checking_function/src/wcsncat_s.o obj/third_party/bounds_checking_function/src/vswscanf_s.o obj/third_party/bounds_checking_function/src/strncpy_s.o obj/third_party/bounds_checking_function/src/gets_s.o obj/third_party/bounds_checking_function/src/wcscpy_s.o obj/third_party/bounds_checking_function/src/vswprintf_s.o obj/third_party/bounds_checking_function/src/strncat_s.o obj/third_party/bounds_checking_function/src/strtok_s.o obj/third_party/bounds_checking_function/src/secureinput_w.o obj/third_party/bounds_checking_function/src/vscanf_s.o obj/third_party/bounds_checking_function/src/wcscat_s.o obj/third_party/bounds_checking_function/src/secureprintoutput_a.o obj/third_party/bounds_checking_function/src/wscanf_s.o obj/third_party/bounds_checking_function/src/memset_s.o obj/third_party/bounds_checking_function/src/sscanf_s.o obj/third_party/bounds_checking_function/src/vsprintf_s.o
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300
+  libs =
+  output_extension = .so
+  output_dir = .

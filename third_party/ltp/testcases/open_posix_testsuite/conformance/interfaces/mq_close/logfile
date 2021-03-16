@@ -1,0 +1,6 @@
+conformance/interfaces/mq_close/1-1 compile PASSED
+conformance/interfaces/mq_close/3-2 compile PASSED
+conformance/interfaces/mq_close/2-1 compile PASSED
+conformance/interfaces/mq_close/3-1 compile PASSED
+conformance/interfaces/mq_close/4-1 compile PASSED
+conformance/interfaces/mq_close/3-3 compile PASSED

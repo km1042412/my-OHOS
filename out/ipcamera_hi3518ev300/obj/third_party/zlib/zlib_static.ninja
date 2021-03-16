@@ -1,0 +1,29 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/zlib
+cflags = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_c = -std=c99
+target_output_name = libz
+
+build obj/third_party/zlib/adler32.o: cc ../../third_party/zlib/adler32.c
+build obj/third_party/zlib/compress.o: cc ../../third_party/zlib/compress.c
+build obj/third_party/zlib/crc32.o: cc ../../third_party/zlib/crc32.c
+build obj/third_party/zlib/deflate.o: cc ../../third_party/zlib/deflate.c
+build obj/third_party/zlib/gzclose.o: cc ../../third_party/zlib/gzclose.c
+build obj/third_party/zlib/gzlib.o: cc ../../third_party/zlib/gzlib.c
+build obj/third_party/zlib/gzread.o: cc ../../third_party/zlib/gzread.c
+build obj/third_party/zlib/gzwrite.o: cc ../../third_party/zlib/gzwrite.c
+build obj/third_party/zlib/infback.o: cc ../../third_party/zlib/infback.c
+build obj/third_party/zlib/inffast.o: cc ../../third_party/zlib/inffast.c
+build obj/third_party/zlib/inflate.o: cc ../../third_party/zlib/inflate.c
+build obj/third_party/zlib/inftrees.o: cc ../../third_party/zlib/inftrees.c
+build obj/third_party/zlib/trees.o: cc ../../third_party/zlib/trees.c
+build obj/third_party/zlib/uncompr.o: cc ../../third_party/zlib/uncompr.c
+build obj/third_party/zlib/zutil.o: cc ../../third_party/zlib/zutil.c
+build obj/third_party/zlib/contrib/minizip/ioapi.o: cc ../../third_party/zlib/contrib/minizip/ioapi.c
+build obj/third_party/zlib/contrib/minizip/unzip.o: cc ../../third_party/zlib/contrib/minizip/unzip.c
+build obj/third_party/zlib/contrib/minizip/zip.o: cc ../../third_party/zlib/contrib/minizip/zip.c
+
+build ./libs/libz.a: alink obj/third_party/zlib/adler32.o obj/third_party/zlib/compress.o obj/third_party/zlib/crc32.o obj/third_party/zlib/deflate.o obj/third_party/zlib/gzclose.o obj/third_party/zlib/gzlib.o obj/third_party/zlib/gzread.o obj/third_party/zlib/gzwrite.o obj/third_party/zlib/infback.o obj/third_party/zlib/inffast.o obj/third_party/zlib/inflate.o obj/third_party/zlib/inftrees.o obj/third_party/zlib/trees.o obj/third_party/zlib/uncompr.o obj/third_party/zlib/zutil.o obj/third_party/zlib/contrib/minizip/ioapi.o obj/third_party/zlib/contrib/minizip/unzip.o obj/third_party/zlib/contrib/minizip/zip.o
+  arflags =
+  output_extension = .a
+  output_dir = ./libs

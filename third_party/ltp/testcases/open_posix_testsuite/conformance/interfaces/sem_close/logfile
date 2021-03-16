@@ -1,0 +1,4 @@
+conformance/interfaces/sem_close/1-1 compile PASSED
+conformance/interfaces/sem_close/3-2 compile PASSED
+conformance/interfaces/sem_close/2-1 compile PASSED
+conformance/interfaces/sem_close/3-1 compile PASSED

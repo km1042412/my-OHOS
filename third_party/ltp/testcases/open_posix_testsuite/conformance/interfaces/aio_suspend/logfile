@@ -1,0 +1,5 @@
+conformance/interfaces/aio_suspend/1-1 compile PASSED
+conformance/interfaces/aio_suspend/9-1 compile PASSED
+conformance/interfaces/aio_suspend/3-1 compile PASSED
+conformance/interfaces/aio_suspend/4-1 compile PASSED
+conformance/interfaces/aio_suspend/5-1 compile PASSED

@@ -1,0 +1,4 @@
+conformance/interfaces/pthread_rwlock_init/1-1 compile PASSED
+conformance/interfaces/pthread_rwlock_init/6-1 compile PASSED
+conformance/interfaces/pthread_rwlock_init/2-1 compile PASSED
+conformance/interfaces/pthread_rwlock_init/3-1 compile PASSED

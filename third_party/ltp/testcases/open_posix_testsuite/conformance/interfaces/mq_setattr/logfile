@@ -1,0 +1,4 @@
+conformance/interfaces/mq_setattr/1-1 compile PASSED
+conformance/interfaces/mq_setattr/2-1 compile PASSED
+conformance/interfaces/mq_setattr/1-2 compile PASSED
+conformance/interfaces/mq_setattr/5-1 compile PASSED

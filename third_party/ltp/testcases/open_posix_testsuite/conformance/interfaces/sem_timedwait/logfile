@@ -1,0 +1,11 @@
+conformance/interfaces/sem_timedwait/1-1 compile PASSED
+conformance/interfaces/sem_timedwait/2-2 compile PASSED
+conformance/interfaces/sem_timedwait/6-1 compile PASSED
+conformance/interfaces/sem_timedwait/7-1 compile PASSED
+conformance/interfaces/sem_timedwait/11-1 compile PASSED
+conformance/interfaces/sem_timedwait/9-1 compile PASSED
+conformance/interfaces/sem_timedwait/6-2 compile PASSED
+conformance/interfaces/sem_timedwait/2-1 compile PASSED
+conformance/interfaces/sem_timedwait/3-1 compile PASSED
+conformance/interfaces/sem_timedwait/10-1 compile PASSED
+conformance/interfaces/sem_timedwait/4-1 compile PASSED

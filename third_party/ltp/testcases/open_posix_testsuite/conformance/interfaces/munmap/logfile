@@ -1,0 +1,7 @@
+conformance/interfaces/munmap/1-1 compile PASSED
+conformance/interfaces/munmap/9-1 compile PASSED
+conformance/interfaces/munmap/8-1 compile PASSED
+conformance/interfaces/munmap/2-1 compile PASSED
+conformance/interfaces/munmap/3-1 compile PASSED
+conformance/interfaces/munmap/4-1 compile PASSED
+conformance/interfaces/munmap/1-2 compile PASSED

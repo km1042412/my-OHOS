@@ -1,0 +1,11 @@
+conformance/interfaces/aio_read/1-1 compile PASSED
+conformance/interfaces/aio_read/3-2 compile PASSED
+conformance/interfaces/aio_read/7-1 compile PASSED
+conformance/interfaces/aio_read/11-1 compile PASSED
+conformance/interfaces/aio_read/9-1 compile PASSED
+conformance/interfaces/aio_read/8-1 compile PASSED
+conformance/interfaces/aio_read/3-1 compile PASSED
+conformance/interfaces/aio_read/10-1 compile PASSED
+conformance/interfaces/aio_read/4-1 compile PASSED
+conformance/interfaces/aio_read/5-1 compile PASSED
+conformance/interfaces/aio_read/11-2 compile PASSED

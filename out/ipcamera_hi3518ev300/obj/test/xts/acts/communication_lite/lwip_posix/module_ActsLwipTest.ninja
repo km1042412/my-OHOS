@@ -1,0 +1,13 @@
+defines = -D_GNU_SOURCE -Drestrict= -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I../../third_party/googletest/googletest/include -I../../third_party/googletest/googletest/src -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../third_party/googletest/googletest/include -I../../base/security/interfaces/innerkits/huks_lite -I../../third_party/bounds_checking_function/include -I../../third_party/mbedtls/include -I../../third_party/openssl/include -I../../third_party/openssl/crypto/include -I../../third_party/openssl/crypto/ec -I../../third_party/openssl
+cflags = -Wno-error -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_cc = -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -fexceptions -Oz -flto -std=c++11 -fPIE
+target_output_name = module_ActsLwipTest
+
+build obj/test/xts/acts/communication_lite/lwip_posix/src/ActsLwipTest.o: cxx ../../test/xts/acts/communication_lite/lwip_posix/src/ActsLwipTest.cpp
+
+build ./bin/module_ActsLwipTest.bin: link obj/test/xts/acts/communication_lite/lwip_posix/src/ActsLwipTest.o ./libs/libhcpptest.a ./libhuks.so ./libs/libhcpptest_main.a ./libsec_shared.so ./libmbedtls.so ./libopenssl_shared.so
+  ldflags = -lc --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -L/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos -L/home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos -L/home/zr/llvm/bin/../lib/arm-liteos/c++ -lclang_rt.builtins -lc++ -lc++abi -march=armv7-a -mfloat-abi=softfp -Wl,-z,now -Wl,-z,relro -Wl,-z,noexecstack -L/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -Wl,-rpath-link=/home/zr/workspace/gitHub/my-OHOS/out/ipcamera_hi3518ev300 -pie -lstdc++ -Wl,-rpath=./lib
+  libs =
+  output_extension = .bin
+  output_dir = .

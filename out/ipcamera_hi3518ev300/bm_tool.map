@@ -1,0 +1,209 @@
+     VMA      LMA     Size Align Out     In      Symbol
+     194      194       16     1 .interp
+     194      194       16     1         <internal>:(.interp)
+     1ac      1ac      350     4 .dynsym
+     1ac      1ac      350     4         <internal>:(.dynsym)
+     4fc      4fc       20     4 .gnu.hash
+     4fc      4fc       20     4         <internal>:(.gnu.hash)
+     51c      51c      1b0     4 .hash
+     51c      51c      1b0     4         <internal>:(.hash)
+     6cc      6cc      542     1 .dynstr
+     6cc      6cc      542     1         <internal>:(.dynstr)
+     c10      c10       a8     4 .rel.dyn
+     c10      c10       a8     4         <internal>:(.rel.dyn)
+     cb8      cb8       88     4 .ARM.exidx
+     cb8      cb8       88     4         <internal>:(.ARM.exidx)
+     d40      d40      170     4 .rel.plt
+     d40      d40      170     4         <internal>:(.rel.plt)
+     eb0      eb0      19c     4 .ARM.extab
+     eb0      eb0       d4     4         lto.tmp:(.ARM.extab.text.main)
+     eb8      eb8        0     1                 GCC_except_table0
+     f84      f84       24     4         lto.tmp:(.ARM.extab.text.startup)
+     f8c      f8c        0     1                 GCC_except_table1
+     fa8      fa8        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2EPKc)
+     fb4      fb4       1c     4         lto.tmp:(.ARM.extab.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_)
+     fc0      fc0        0     1                 GCC_except_table3
+     fd0      fd0        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_RKS9_)
+     fdc      fdc        c     4         lto.tmp:(.ARM.extab.text._ZNK4OHOS13CommandParser12SetDebugModeERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEi)
+     fe8      fe8       20     4         lto.tmp:(.ARM.extab.text._ZNSt3__heqIcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_)
+     ff4      ff4        0     1                 GCC_except_table9
+    1008     1008        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS7SetModeEib)
+    1014     1014        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOSL13BmsToolNotifyEPviP5IpcIo)
+    1020     1020        c     4         lto.tmp:(.ARM.extab.text._ZNKSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6substrEjj)
+    102c     102c       20     4         lto.tmp:(.ARM.extab.text._ZN4OHOSL15ReceiveCallbackEhPKv)
+    1038     1038        0     1                 GCC_except_table15
+    104c     104c      528     1 .rodata
+    104c     104c      50f     1         <internal>:(.rodata)
+    155b     155b        9     1         lto.tmp:(.rodata._ZL11BMS_SERVICE)
+    155b     155b        9     1                 BMS_SERVICE
+    1564     1564       10     1         lto.tmp:(.rodata._ZL17BMS_INNER_FEATURE)
+    1564     1564       10     1                 BMS_INNER_FEATURE
+    1574     1574        c     4 .eh_frame_hdr
+    1574     1574        c     4         <internal>:(.eh_frame_hdr)
+    1580     1580        4     4 .eh_frame
+    2000     2000     1960     4 .text
+    2000     2000       24     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text)
+    2000     2000        0     1                 $a.0
+    2000     2000        0     1                 _start
+    2020     2020        0     1                 $d.1
+    2024     2024       4c     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text._start_c)
+    2024     2024        0     1                 $a.2
+    2024     2024       4c     1                 _start_c
+    2064     2064        0     1                 $d.3
+    2070     2070        0     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.text)
+    2070     2070        0     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text)
+    2070     2070       78     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text.__do_init)
+    2070     2070        0     1                 $a.0
+    2070     2070       78     1                 __do_init
+    20d4     20d4        0     1                 $d.1
+    20e8     20e8       6c     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text.__do_fini)
+    20e8     20e8        0     1                 $a.2
+    20e8     20e8       6c     1                 __do_fini
+    2144     2144        0     1                 $d.3
+    2154     2154        0     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtend.o:(.text)
+    2154     2154        0     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.text)
+    2154     2154        0     4         lto.tmp:(.text)
+    2154     2154      c60     4         lto.tmp:(.text.main)
+    2154     2154        0     1                 $a.0
+    2154     2154      c60     1                 main
+    26b0     26b0        0     1                 $d.1
+    26cc     26cc        0     1                 $a.2
+    2c98     2c98        0     1                 $d.3
+    2db4     2db4      3ac     4         lto.tmp:(.text.startup)
+    2db4     2db4        0     1                 $a.4
+    2db4     2db4      3ac     1                 _GLOBAL__sub_I_command_parser.cpp
+    30fc     30fc        0     1                 $d.5
+    3160     3160       68     4         lto.tmp:(.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2EPKc)
+    3160     3160        0     1                 $a.6
+    3160     3160       68     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::basic_string(char const*)
+    31c4     31c4        0     1                 $d.7
+    31c8     31c8       bc     4         lto.tmp:(.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_)
+    31c8     31c8        0     1                 $a.8
+    31c8     31c8       bc     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > std::__h::operator+<char, std::__h::char_traits<char>, std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    3280     3280        0     1                 $d.9
+    3284     3284       78     4         lto.tmp:(.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_RKS9_)
+    3284     3284        0     1                 $a.10
+    3284     3284       78     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > std::__h::operator+<char, std::__h::char_traits<char>, std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >&&, std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    32f8     32f8        0     1                 $d.11
+    32fc     32fc       50     4         lto.tmp:(.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__zeroEv)
+    32fc     32fc        0     1                 $a.12
+    32fc     32fc       50     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::__zero()
+    3348     3348        0     1                 $d.13
+    334c     334c        8     4         lto.tmp:(.text.__clang_call_terminate)
+    334c     334c        0     1                 $a.14
+    334c     334c        8     1                 __clang_call_terminate
+    3354     3354       cc     4         lto.tmp:(.text._ZNSt3__heqINS_9allocatorIcEEEEbRKNS_12basic_stringIcNS_11char_traitsIcEET_EES9_)
+    3354     3354        0     1                 $a.15
+    3354     3354       cc     1                 bool std::__h::operator==<std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    341c     341c        0     1                 $d.16
+    3420     3420       c8     4         lto.tmp:(.text._ZNK4OHOS13CommandParser12SetDebugModeERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEi)
+    3420     3420        0     1                 $a.17
+    3420     3420       c8     1                 OHOS::CommandParser::SetDebugMode(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, int) const
+    34cc     34cc        0     1                 $d.18
+    34e8     34e8       88     4         lto.tmp:(.text._ZNSt3__heqIcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_)
+    34e8     34e8        0     1                 $a.19
+    34e8     34e8       88     1                 bool std::__h::operator==<char, std::__h::char_traits<char>, std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, char const*)
+    356c     356c        0     1                 $d.20
+    3570     3570      130     4         lto.tmp:(.text._ZN4OHOS7SetModeEib)
+    3570     3570        0     1                 $a.21
+    3570     3570      130     1                 OHOS::SetMode(int, bool)
+    367c     367c        0     1                 $d.22
+    36a0     36a0       94     4         lto.tmp:(.text._ZN4OHOSL13BmsToolNotifyEPviP5IpcIo)
+    36a0     36a0        0     1                 $a.23
+    36a0     36a0       94     1                 OHOS::BmsToolNotify(void*, int, IpcIo*)
+    3728     3728        0     1                 $d.24
+    3734     3734      11c     4         lto.tmp:(.text._ZNK4OHOS13CommandParser9InfoPrintERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE)
+    3734     3734        0     1                 $a.25
+    3734     3734      11c     1                 OHOS::CommandParser::InfoPrint(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&) const
+    3840     3840        0     1                 $d.26
+    3850     3850       3c     4         lto.tmp:(.text._ZNKSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6substrEjj)
+    3850     3850        0     1                 $a.27
+    3850     3850       3c     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::substr(unsigned int, unsigned int) const
+    3888     3888        0     1                 $d.28
+    388c     388c       34     4         lto.tmp:(.text._ZN4OHOSL17BmToolDeathNotifyEPK10IpcContextPvP5IpcIoS3_)
+    388c     388c        0     1                 $a.29
+    388c     388c       34     1                 OHOS::BmToolDeathNotify(IpcContext const*, void*, IpcIo*, void*)
+    38b8     38b8        0     1                 $d.30
+    38c0     38c0       a0     4         lto.tmp:(.text._ZN4OHOSL15ReceiveCallbackEhPKv)
+    38c0     38c0        0     1                 $a.31
+    38c0     38c0       a0     1                 OHOS::ReceiveCallback(unsigned char, void const*)
+    3954     3954        0     1                 $d.32
+    3960     3960        c     1 .init
+    3960     3960        4     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.init)
+    3960     3960        0     1                 $a.0
+    3960     3960        0     1                 _init
+    3964     3964        8     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.init)
+    3964     3964        0     1                 $a.0
+    396c     396c        c     1 .fini
+    396c     396c        4     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.fini)
+    396c     396c        0     1                 $a.1
+    396c     396c        0     1                 _fini
+    3970     3970        8     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.fini)
+    3970     3970        0     1                 $a.1
+    3980     3980      300    16 .plt
+    3980     3980      300    16         <internal>:(.plt)
+    4000     4000        8     4 .init_array
+    4000     4000        4     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.init_array)
+    4000     4000        4     1                 __init
+    4004     4004        4     4         lto.tmp:(.init_array)
+    4008     4008        4     4 .fini_array
+    4008     4008        4     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.fini_array)
+    4008     4008        4     1                 __fini
+    400c     400c       b0     4 .data.rel.ro
+    400c     400c       50     4         lto.tmp:(.data.rel.ro._ZN4OHOS12_GLOBAL__N_119ENABLE_LONG_OPTIONSE)
+    400c     400c       50     1                 OHOS::(anonymous namespace)::ENABLE_LONG_OPTIONS
+    405c     405c       60     4         lto.tmp:(.data.rel.ro._ZN4OHOS12_GLOBAL__N_112LONG_OPTIONSE)
+    405c     405c       60     1                 OHOS::(anonymous namespace)::LONG_OPTIONS
+    40bc     40bc      100     4 .dynamic
+    40bc     40bc      100     4         <internal>:(.dynamic)
+    41bc     41bc       20     4 .got
+    41bc     41bc       20     4         <internal>:(.got)
+    41dc     41dc       c4     4 .got.plt
+    41dc     41dc       c4     4         <internal>:(.got.plt)
+    42a0     42a0        0     1 .bss.rel.ro
+    42a0     42a0        0     1         <internal>:(.bss.rel.ro)
+    5000     5000        4     4 .data
+    5000     5000        4     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.data.__dso_handle)
+    5000     5000        4     1                 __dso_handle
+    5004     5004      114     4 .bss
+    5004     5004        1     1         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.bss.__do_init.__initialized)
+    5004     5004        1     1                 __do_init.__initialized
+    5008     5008       20     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.bss.__do_init.__object)
+    5008     5008       20     1                 __do_init.__object
+    5028     5028        1     1         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.bss.__do_fini.__finalized)
+    5028     5028        1     1                 __do_fini.__finalized
+    502c     502c       7c     4         lto.tmp:(.bss..L_MergedGlobals)
+    502c     502c       7c     1                 .L_MergedGlobals
+    502c     502c        4     1                 OHOS::(anonymous namespace)::g_bmsInnerClient
+    5030     5030        c     1                 OHOS::(anonymous namespace)::CMD_INSTALL
+    503c     503c        c     1                 OHOS::(anonymous namespace)::CMD_UNINSTALL
+    5048     5048        c     1                 OHOS::(anonymous namespace)::CMD_DUMP
+    5054     5054        c     1                 OHOS::(anonymous namespace)::CMD_ENABLE
+    5060     5060        c     1                 OHOS::(anonymous namespace)::INSTALL_HELP_MESSAGE
+    506c     506c        c     1                 OHOS::(anonymous namespace)::UNINSTALL_HELP_MESSAGE
+    5078     5078        c     1                 OHOS::(anonymous namespace)::DUMP_HELP_MESSAGE
+    5084     5084        c     1                 OHOS::(anonymous namespace)::ENABLE_HELP_MESSAGE
+    5090     5090        c     1                 OHOS::(anonymous namespace)::HELP_MESSAGE
+    509c     509c        c     1                 OHOS::(anonymous namespace)::ERROR_COMMAND
+    50a8     50a8       70     4         lto.tmp:(.bss..L_MergedGlobals.3)
+    50a8     50a8       70     1                 .L_MergedGlobals.3
+    50a8     50a8        c     1                 OHOS::(anonymous namespace)::ERROR_OPTION
+    50b4     50b4        c     1                 OHOS::(anonymous namespace)::ERROR_INSTALL_PATH
+    50c0     50c0        c     1                 OHOS::(anonymous namespace)::ERROR_EXTRA_PARAMETER
+    50cc     50cc        c     1                 OHOS::(anonymous namespace)::ERROR_SEM_ERROR
+    50d8     50d8        c     1                 OHOS::(anonymous namespace)::ERROR_DUMP_FAIL
+    50e4     50e4        c     1                 OHOS::(anonymous namespace)::ERROR_DUMP_ERROR
+    50f0     50f0        c     1                 OHOS::(anonymous namespace)::SHORT_OPTIONS
+    50fc     50fc        c     1                 OHOS::(anonymous namespace)::ENABLE_SHORT_OPTIONS
+    5108     5108       10     1                 OHOS::(anonymous namespace)::g_sem
+    5118     5118        0     1         <internal>:(.bss)
+       0        0       db     1 .comment
+       0        0       db     1         <internal>:(.comment)
+       0        0       38     1 .ARM.attributes
+       0        0       38     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.ARM.attributes)
+       0        0      fe0     4 .symtab
+       0        0      fe0     4         <internal>:(.symtab)
+       0        0      10e     1 .shstrtab
+       0        0      10e     1         <internal>:(.shstrtab)
+       0        0      e42     1 .strtab
+       0        0      e42     1         <internal>:(.strtab)

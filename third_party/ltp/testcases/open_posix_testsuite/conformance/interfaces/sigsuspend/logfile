@@ -1,0 +1,4 @@
+conformance/interfaces/sigsuspend/1-1 compile PASSED
+conformance/interfaces/sigsuspend/6-1 compile PASSED
+conformance/interfaces/sigsuspend/3-1 compile PASSED
+conformance/interfaces/sigsuspend/4-1 compile PASSED

@@ -1,0 +1,12 @@
+defines = -D_XOPEN_SOURCE=700 -D_FORTIFY_SOURCE=2 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_A__
+include_dirs = -I../../third_party/bounds_checking_function/include -I/home/zr/llvm/include/c++/v1 -I../../prebuilts/lite/sysroot/usr/include/arm-liteos -I../../base/hiviewdfx/interfaces/innerkits/hilog -I../../base/hiviewdfx/interfaces/innerkits -I../../third_party/bounds_checking_function/include -I../../third_party/bounds_checking_function/include
+cflags = -Wall -nostdlib -fno-common -fno-builtin -fno-strict-aliasing -fsigned-char -Werror -mno-unaligned-access -fno-omit-frame-pointer --target=arm-liteos --sysroot=/home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot -march=armv7-a -mfloat-abi=softfp -fstack-protector-all -Oz -flto -fPIE
+cflags_c = -std=c99
+target_output_name = libapphilogcat_static
+
+build obj/base/hiviewdfx/services/hilogcat_lite/apphilogcat/hiview_applogcat.o: cc ../../base/hiviewdfx/services/hilogcat_lite/apphilogcat/hiview_applogcat.c
+
+build ./libs/libapphilogcat_static.a: alink obj/base/hiviewdfx/services/hilogcat_lite/apphilogcat/hiview_applogcat.o || ./libhilog_shared.so ./libsec_shared.so
+  arflags =
+  output_extension = .a
+  output_dir = ./libs

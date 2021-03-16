@@ -1,0 +1,13 @@
+conformance/interfaces/clock_settime/1-1 compile PASSED
+conformance/interfaces/clock_settime/19-1 compile PASSED
+conformance/interfaces/clock_settime/6-1 compile PASSED
+conformance/interfaces/clock_settime/7-1 compile PASSED
+conformance/interfaces/clock_settime/8-1 compile PASSED
+conformance/interfaces/clock_settime/17-1 compile PASSED
+conformance/interfaces/clock_settime/7-2 compile PASSED
+conformance/interfaces/clock_settime/20-1 compile PASSED
+conformance/interfaces/clock_settime/5-2 compile PASSED
+conformance/interfaces/clock_settime/4-1 compile PASSED
+conformance/interfaces/clock_settime/5-1 compile PASSED
+conformance/interfaces/clock_settime/4-2 compile PASSED
+conformance/interfaces/clock_settime/17-2 compile PASSED

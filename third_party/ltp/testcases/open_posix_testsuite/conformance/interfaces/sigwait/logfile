@@ -1,0 +1,8 @@
+conformance/interfaces/sigwait/1-1 compile PASSED
+conformance/interfaces/sigwait/6-1 compile PASSED
+conformance/interfaces/sigwait/7-1 compile PASSED
+conformance/interfaces/sigwait/6-2 compile PASSED
+conformance/interfaces/sigwait/8-1 compile PASSED
+conformance/interfaces/sigwait/2-1 compile PASSED
+conformance/interfaces/sigwait/3-1 compile PASSED
+conformance/interfaces/sigwait/4-1 compile PASSED

@@ -1,0 +1,4 @@
+conformance/interfaces/pthread_spin_init/1-1 compile PASSED
+conformance/interfaces/pthread_spin_init/2-2 compile PASSED
+conformance/interfaces/pthread_spin_init/2-1 compile PASSED
+conformance/interfaces/pthread_spin_init/4-1 compile PASSED

@@ -1,0 +1,581 @@
+     VMA      LMA     Size Align Out     In      Symbol
+     194      194       16     1 .interp
+     194      194       16     1         <internal>:(.interp)
+     1ac      1ac      890     4 .dynsym
+     1ac      1ac      890     4         <internal>:(.dynsym)
+     a3c      a3c       98     4 .gnu.hash
+     a3c      a3c       98     4         <internal>:(.gnu.hash)
+     ad4      ad4      450     4 .hash
+     ad4      ad4      450     4         <internal>:(.hash)
+     f24      f24     1186     1 .dynstr
+     f24      f24     1186     1         <internal>:(.dynstr)
+    20ac     20ac      2b8     4 .rel.dyn
+    20ac     20ac      2b8     4         <internal>:(.rel.dyn)
+    2364     2364      210     4 .ARM.exidx
+    2364     2364      210     4         <internal>:(.ARM.exidx)
+    2574     2574      2e8     4 .rel.plt
+    2574     2574      2e8     4         <internal>:(.rel.plt)
+    285c     285c      4d8     4 .ARM.extab
+    285c     285c        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOSL21BOOT_app_service2InitEv)
+    2868     2868        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon11GetInstanceEv)
+    2874     2874      178     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon16ExtractHapInvokeEP5IpcIo)
+    2880     2880        0     1                 GCC_except_table4
+    29ec     29ec        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon16RenameFileInvokeEP5IpcIo)
+    29f8     29f8        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon22CreatePermissionInvokeEP5IpcIo)
+    2a04     2a04       30     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon25CreateDataDirectoryInvokeEP5IpcIo)
+    2a10     2a10        0     1                 GCC_except_table7
+    2a34     2a34       30     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon24StoreContentToFileInvokeEP5IpcIo)
+    2a3c     2a3c        0     1                 GCC_except_table8
+    2a64     2a64       34     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon16RemoveFileInvokeEP5IpcIo)
+    2a70     2a70        0     1                 GCC_except_table9
+    2a98     2a98        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS12BundleDaemon28RemoveInstallDirectoryInvokeEP5IpcIo)
+    2aa4     2aa4        c     4         lto.tmp:(.ARM.extab.text.startup)
+    2ab0     2ab0        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2EPKc)
+    2abc     2abc       34     4         lto.tmp:(.ARM.extab.text._ZN4OHOS19BundleDaemonHandler16IsValideCodePathEPKc)
+    2ac8     2ac8        0     1                 GCC_except_table22
+    2af0     2af0       1c     4         lto.tmp:(.ARM.extab.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_)
+    2afc     2afc        0     1                 GCC_except_table24
+    2b0c     2b0c       24     4         lto.tmp:(.ARM.extab.text._ZN4OHOS19BundleDaemonHandler16IsValideJsonPathEPKc)
+    2b18     2b18        0     1                 GCC_except_table27
+    2b30     2b30       34     4         lto.tmp:(.ARM.extab.text._ZN4OHOS19BundleDaemonHandler16IsValideDataPathEPKc)
+    2b3c     2b3c        0     1                 GCC_except_table28
+    2b64     2b64        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS15BundleFileUtils10IsExistDirEPKc)
+    2b70     2b70       2c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS15BundleFileUtils10RemoveFileEPKc)
+    2b78     2b78        0     1                 GCC_except_table31
+    2b9c     2b9c        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_)
+    2ba8     2ba8        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS15BundleFileUtils11IsValidPathERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_)
+    2bb4     2bb4        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS15BundleFileUtils10GetPathDirERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE)
+    2bc0     2bc0        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2Ev)
+    2bcc     2bcc        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS14BundleMsClient9SendReplyEi)
+    2bd8     2bd8       24     4         lto.tmp:(.ARM.extab.text._ZN4OHOS13ExtractorUtilD2Ev)
+    2be4     2be4        0     1                 GCC_except_table39
+    2bfc     2bfc        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEE5closeEv)
+    2c08     2c08       1c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE5closeEv)
+    2c14     2c14        0     1                 GCC_except_table42
+    2c24     2c24       20     4         lto.tmp:(.ARM.extab.text._ZNSt3__h10unique_ptrI8_IO_FILEPFiPS1_EED2Ev)
+    2c30     2c30        0     1                 GCC_except_table44
+    2c44     2c44       28     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEED2Ev)
+    2c50     2c50        0     1                 GCC_except_table45
+    2c6c     2c6c        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE)
+    2c78     2c78        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE6setbufEPci)
+    2c84     2c84        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi)
+    2c90     2c90        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h9use_facetINS_7codecvtIcc11__mbstate_tEEEERKT_RKNS_6localeE)
+    2c9c     2c9c       38     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEEC2Ev)
+    2ca8     2ca8        0     1                 GCC_except_table60
+    2cd4     2cd4        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13__vector_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED2Ev)
+    2ce0     2ce0        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h6__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE)
+    2cec     2cec        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h13__vector_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearEv)
+    2cf8     2cf8        c     4         lto.tmp:(.ARM.extab.text._ZN4OHOS8ZipEntryaSERKS0_)
+    2d04     2d04        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h14__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev)
+    2d10     2d10        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__h10unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEED2Ev)
+    2d1c     2d1c        c     4         lto.tmp:(.ARM.extab.text._ZNSt3__hltIcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EESB_)
+    2d28     2d28        c     4         lto.tmp:(.ARM.extab.text._ZNK4OHOS7ZipFile16SeekToEntryStartERKNS_8ZipEntryEt)
+    2d38     2d38     10e5     8 .rodata
+    2d38     2d38     1004     1         <internal>:(.rodata)
+    3d3c     3d3c        e     1         lto.tmp:(.rodata._ZL11BDS_SERVICE)
+    3d3c     3d3c        e     1                 BDS_SERVICE
+    3d4a     3d4a       16     1         lto.tmp:(.rodata._ZTSN4OHOS12BundleDaemonE)
+    3d4a     3d4a       16     1                 typeinfo name for OHOS::BundleDaemon
+    3d60     3d60       14     1         lto.tmp:(.rodata._ZTSN4OHOS10NoCopyableE)
+    3d60     3d60       14     1                 typeinfo name for OHOS::NoCopyable
+    3d74     3d74        9     1         lto.tmp:(.rodata._ZTS7Service)
+    3d74     3d74        9     1                 typeinfo name for Service
+    3d80     3d80        9     8         lto.tmp:(.rodata..L__const._ZN4OHOS12BundleDaemon20GetServiceTaskConfigEP7Service.config)
+    3d80     3d80        9     1                 .L__const._ZN4OHOS12BundleDaemon20GetServiceTaskConfigEP7Service.config
+    3d89     3d89       1d     1         lto.tmp:(.rodata._ZTSN4OHOS19BundleDaemonHandlerE)
+    3d89     3d89       1d     1                 typeinfo name for OHOS::BundleDaemonHandler
+    3da6     3da6       18     1         lto.tmp:(.rodata._ZTSN4OHOS14BundleMsClientE)
+    3da6     3da6       18     1                 typeinfo name for OHOS::BundleMsClient
+    3dbe     3dbe       2f     1         lto.tmp:(.rodata._ZTSNSt3__h13basic_filebufIcNS_11char_traitsIcEEEE)
+    3dbe     3dbe       2f     1                 typeinfo name for std::__h::basic_filebuf<char, std::__h::char_traits<char> >
+    3ded     3ded       30     1         lto.tmp:(.rodata._ZTSNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEEE)
+    3ded     3ded       30     1                 typeinfo name for std::__h::basic_ofstream<char, std::__h::char_traits<char> >
+    3e20     3e20        c     4 .eh_frame_hdr
+    3e20     3e20        c     4         <internal>:(.eh_frame_hdr)
+    3e2c     3e2c        4     4 .eh_frame
+    4000     4000     5e9c     8 .text
+    4000     4000       24     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text)
+    4000     4000        0     1                 $a.0
+    4000     4000        0     1                 _start
+    4020     4020        0     1                 $d.1
+    4024     4024       4c     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.text._start_c)
+    4024     4024        0     1                 $a.2
+    4024     4024       4c     1                 _start_c
+    4064     4064        0     1                 $d.3
+    4070     4070        0     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.text)
+    4070     4070        0     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text)
+    4070     4070       78     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text.__do_init)
+    4070     4070        0     1                 $a.0
+    4070     4070       78     1                 __do_init
+    40d4     40d4        0     1                 $d.1
+    40e8     40e8       6c     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.text.__do_fini)
+    40e8     40e8        0     1                 $a.2
+    40e8     40e8       6c     1                 __do_fini
+    4144     4144        0     1                 $d.3
+    4154     4154        0     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtend.o:(.text)
+    4154     4154        0     4         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.text)
+    4158     4158       2c     8         /home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos/libclang_rt.builtins.a(divsi3.S.o):(.text)
+    4158     4158        0     1                 $a.0
+    4158     4158       2c     1                 __aeabi_idiv
+    4158     4158       2c     1                 __divsi3
+    4184     4184      1d0     4         /home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos/libclang_rt.builtins.a(udivsi3.S.o):(.text)
+    4184     4184        0     1                 $a.0
+    4184     4184      1d0     1                 __aeabi_uidiv
+    4184     4184      1d0     1                 __udivsi3
+    4354     4354        0     4         /home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos/libclang_rt.builtins.a(aeabi_div0.c.o):(.text)
+    4354     4354        4     4         /home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos/libclang_rt.builtins.a(aeabi_div0.c.o):(.text.__aeabi_idiv0)
+    4354     4354        0     1                 $a.0
+    4354     4354        4     1                 __aeabi_idiv0
+    4358     4358        4     4         /home/zr/llvm/bin/../lib/clang/9.0.0/lib/arm-liteos/libclang_rt.builtins.a(aeabi_div0.c.o):(.text.__aeabi_ldiv0)
+    4358     4358        0     1                 $a.1
+    4358     4358        4     1                 __aeabi_ldiv0
+    435c     435c        0     4         lto.tmp:(.text)
+    435c     435c       14     4         lto.tmp:(.text.main)
+    435c     435c        0     1                 $a.0
+    435c     435c       14     1                 main
+    4370     4370      1a4     4         lto.tmp:(.text._ZN4OHOSL21BOOT_app_service2InitEv)
+    4370     4370        0     1                 $a.1
+    4370     4370      1a4     1                 OHOS::BOOT_app_service2Init()
+    44d0     44d0        0     1                 $d.2
+    4514     4514      124     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon11GetInstanceEv)
+    4514     4514        0     1                 $a.3
+    4514     4514      124     1                 OHOS::BundleDaemon::GetInstance()
+    460c     460c        0     1                 $d.4
+    4638     4638      258     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon6InvokeEP12IServerProxyiPvP5IpcIoS5_)
+    4638     4638        0     1                 $a.5
+    4638     4638      258     1                 OHOS::BundleDaemon::Invoke(IServerProxy*, int, void*, IpcIo*, IpcIo*)
+    4854     4854        0     1                 $d.6
+    4890     4890     1f00     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon16ExtractHapInvokeEP5IpcIo)
+    4890     4890        0     1                 $a.7
+    4890     4890     1f00     1                 OHOS::BundleDaemon::ExtractHapInvoke(IpcIo*)
+    5850     5850        0     1                 $d.8
+    5854     5854        0     1                 $a.9
+    59b8     59b8        0     1                 $d.10
+    59c0     59c0        0     1                 $a.11
+    5a30     5a30        0     1                 $d.12
+    5a34     5a34        0     1                 $a.13
+    5b04     5b04        0     1                 $d.14
+    5b08     5b08        0     1                 $a.15
+    5c14     5c14        0     1                 $d.16
+    5c1c     5c1c        0     1                 $a.17
+    5c70     5c70        0     1                 $d.18
+    5c78     5c78        0     1                 $a.19
+    5d28     5d28        0     1                 $d.20
+    5d40     5d40        0     1                 $a.21
+    5f48     5f48        0     1                 $d.22
+    5f4c     5f4c        0     1                 $a.23
+    6060     6060        0     1                 $d.24
+    6064     6064        0     1                 $a.25
+    609c     609c        0     1                 $d.26
+    60a4     60a4        0     1                 $a.27
+    60d8     60d8        0     1                 $d.28
+    60e0     60e0        0     1                 $a.29
+    6164     6164        0     1                 $d.30
+    616c     616c        0     1                 $a.31
+    61d0     61d0        0     1                 $d.32
+    61d8     61d8        0     1                 $a.33
+    62f8     62f8        0     1                 $d.34
+    6300     6300        0     1                 $a.35
+    6364     6364        0     1                 $d.36
+    6368     6368        0     1                 $a.37
+    63a8     63a8        0     1                 $d.38
+    63ac     63ac        0     1                 $a.39
+    63cc     63cc        0     1                 $d.40
+    63d0     63d0        0     1                 $a.41
+    6448     6448        0     1                 $d.42
+    644c     644c        0     1                 $a.43
+    656c     656c        0     1                 $d.44
+    6570     6570        0     1                 $a.45
+    65cc     65cc        0     1                 $d.46
+    65d0     65d0        0     1                 $a.47
+    65ec     65ec        0     1                 $d.48
+    65f0     65f0        0     1                 $a.49
+    6620     6620        0     1                 $d.50
+    6624     6624        0     1                 $a.51
+    6644     6644        0     1                 $d.52
+    6648     6648        0     1                 $a.53
+    667c     667c        0     1                 $d.54
+    6680     6680        0     1                 $a.55
+    66c0     66c0        0     1                 $d.56
+    6790     6790      214     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon16RenameFileInvokeEP5IpcIo)
+    6790     6790        0     1                 $a.57
+    6790     6790      214     1                 OHOS::BundleDaemon::RenameFileInvoke(IpcIo*)
+    6974     6974        0     1                 $d.58
+    69a4     69a4      13c     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon22CreatePermissionInvokeEP5IpcIo)
+    69a4     69a4        0     1                 $a.59
+    69a4     69a4      13c     1                 OHOS::BundleDaemon::CreatePermissionInvoke(IpcIo*)
+    6ab4     6ab4        0     1                 $d.60
+    6ae0     6ae0      2f4     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon25CreateDataDirectoryInvokeEP5IpcIo)
+    6ae0     6ae0        0     1                 $a.61
+    6ae0     6ae0      2f4     1                 OHOS::BundleDaemon::CreateDataDirectoryInvoke(IpcIo*)
+    6d90     6d90        0     1                 $d.62
+    6dd4     6dd4      330     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon24StoreContentToFileInvokeEP5IpcIo)
+    6dd4     6dd4        0     1                 $a.63
+    6dd4     6dd4      330     1                 OHOS::BundleDaemon::StoreContentToFileInvoke(IpcIo*)
+    70c0     70c0        0     1                 $d.64
+    7104     7104      24c     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon16RemoveFileInvokeEP5IpcIo)
+    7104     7104        0     1                 $a.65
+    7104     7104      24c     1                 OHOS::BundleDaemon::RemoveFileInvoke(IpcIo*)
+    731c     731c        0     1                 $d.66
+    7350     7350       e4     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon28RemoveInstallDirectoryInvokeEP5IpcIo)
+    7350     7350        0     1                 $a.67
+    7350     7350       e4     1                 OHOS::BundleDaemon::RemoveInstallDirectoryInvoke(IpcIo*)
+    7430     7430        0     1                 $d.68
+    7434     7434       68     4         lto.tmp:(.text._ZN4OHOS12BundleDaemonD2Ev)
+    7434     7434        0     1                 $a.69
+    7434     7434       68     1                 OHOS::BundleDaemon::~BundleDaemon()
+    7494     7494        0     1                 $d.70
+    749c     749c       40     4         lto.tmp:(.text._ZN4OHOS12BundleDaemonD0Ev)
+    749c     749c        0     1                 $a.71
+    749c     749c       40     1                 OHOS::BundleDaemon::~BundleDaemon()
+    74d8     74d8        0     1                 $d.72
+    74dc     74dc       40     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon14GetServiceNameEP7Service)
+    74dc     74dc        0     1                 $a.73
+    74dc     74dc       40     1                 OHOS::BundleDaemon::GetServiceName(Service*)
+    7514     7514        0     1                 $d.74
+    751c     751c       50     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon17ServiceInitializeEP7Service8Identity)
+    751c     751c        0     1                 $a.75
+    751c     751c       50     1                 OHOS::BundleDaemon::ServiceInitialize(Service*, Identity)
+    7568     7568        0     1                 $d.76
+    756c     756c       40     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon20ServiceMessageHandleEP7ServiceP7Request)
+    756c     756c        0     1                 $a.77
+    756c     756c       40     1                 OHOS::BundleDaemon::ServiceMessageHandle(Service*, Request*)
+    75a8     75a8        0     1                 $d.78
+    75ac     75ac       50     4         lto.tmp:(.text._ZN4OHOS12BundleDaemon20GetServiceTaskConfigEP7Service)
+    75ac     75ac        0     1                 $a.79
+    75ac     75ac       50     1                 OHOS::BundleDaemon::GetServiceTaskConfig(Service*)
+    75f4     75f4        0     1                 $d.80
+    75fc     75fc       34     4         lto.tmp:(.text._ZN4OHOS10NoCopyableD2Ev)
+    75fc     75fc        0     1                 $a.81
+    75fc     75fc       34     1                 OHOS::NoCopyable::~NoCopyable()
+    762c     762c        0     1                 $d.82
+    7630     7630       3c     4         lto.tmp:(.text._ZN4OHOS19BundleDaemonHandlerD0Ev)
+    7630     7630        0     1                 $a.83
+    7630     7630       3c     1                 OHOS::BundleDaemonHandler::~BundleDaemonHandler()
+    7668     7668        0     1                 $d.84
+    766c     766c      174     4         lto.tmp:(.text.startup)
+    766c     766c        0     1                 $a.85
+    766c     766c      174     1                 _GLOBAL__sub_I_bundle_daemon_handler.cpp
+    77b4     77b4        0     1                 $d.86
+    77e0     77e0       68     4         lto.tmp:(.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2EPKc)
+    77e0     77e0        0     1                 $a.87
+    77e0     77e0       68     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::basic_string(char const*)
+    7844     7844        0     1                 $d.88
+    7848     7848        8     4         lto.tmp:(.text.__clang_call_terminate)
+    7848     7848        0     1                 $a.89
+    7848     7848        8     1                 __clang_call_terminate
+    7850     7850      128     4         lto.tmp:(.text._ZN4OHOS19BundleDaemonHandler16IsValideCodePathEPKc)
+    7850     7850        0     1                 $a.90
+    7850     7850      128     1                 OHOS::BundleDaemonHandler::IsValideCodePath(char const*)
+    7970     7970        0     1                 $d.91
+    7978     7978       f0     4         lto.tmp:(.text._ZNKSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEPKcj)
+    7978     7978        0     1                 $a.92
+    7978     7978       f0     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::find(char const*, unsigned int) const
+    7a60     7a60        0     1                 $d.93
+    7a68     7a68       bc     4         lto.tmp:(.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_)
+    7a68     7a68        0     1                 $a.94
+    7a68     7a68       bc     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > std::__h::operator+<char, std::__h::char_traits<char>, std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    7b20     7b20        0     1                 $d.95
+    7b24     7b24       50     4         lto.tmp:(.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__zeroEv)
+    7b24     7b24        0     1                 $a.96
+    7b24     7b24       50     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::__zero()
+    7b70     7b70        0     1                 $d.97
+    7b74     7b74       5c     4         lto.tmp:(.text._ZNSt3__h11char_traitsIcE7compareEPKcS3_j)
+    7b74     7b74        0     1                 $a.98
+    7b74     7b74       5c     1                 std::__h::char_traits<char>::compare(char const*, char const*, unsigned int)
+    7bcc     7bcc        0     1                 $d.99
+    7bd0     7bd0       bc     4         lto.tmp:(.text._ZN4OHOS19BundleDaemonHandler16IsValideJsonPathEPKc)
+    7bd0     7bd0        0     1                 $a.100
+    7bd0     7bd0       bc     1                 OHOS::BundleDaemonHandler::IsValideJsonPath(char const*)
+    7c84     7c84        0     1                 $d.101
+    7c8c     7c8c      128     4         lto.tmp:(.text._ZN4OHOS19BundleDaemonHandler16IsValideDataPathEPKc)
+    7c8c     7c8c        0     1                 $a.102
+    7c8c     7c8c      128     1                 OHOS::BundleDaemonHandler::IsValideDataPath(char const*)
+    7dac     7dac        0     1                 $d.103
+    7db4     7db4       90     4         lto.tmp:(.text._ZN4OHOS15BundleFileUtils10IsExistDirEPKc)
+    7db4     7db4        0     1                 $a.104
+    7db4     7db4       90     1                 OHOS::BundleFileUtils::IsExistDir(char const*)
+    7e40     7e40        0     1                 $d.105
+    7e44     7e44      100     4         lto.tmp:(.text._ZN4OHOS15BundleFileUtils14MkRecursiveDirEPKcb)
+    7e44     7e44        0     1                 $a.106
+    7e44     7e44      100     1                 OHOS::BundleFileUtils::MkRecursiveDir(char const*, bool)
+    7f40     7f40        0     1                 $d.107
+    7f44     7f44      210     4         lto.tmp:(.text._ZN4OHOS15BundleFileUtils10RemoveFileEPKc)
+    7f44     7f44        0     1                 $a.108
+    7f44     7f44      210     1                 OHOS::BundleFileUtils::RemoveFile(char const*)
+    8140     8140        0     1                 $d.109
+    8154     8154       5c     4         lto.tmp:(.text._ZNSt3__hplIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_)
+    8154     8154        0     1                 $a.110
+    8154     8154       5c     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > std::__h::operator+<char, std::__h::char_traits<char>, std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >&&, char const*)
+    81ac     81ac        0     1                 $d.111
+    81b0     81b0       50     4         lto.tmp:(.text._ZN4OHOS15BundleFileUtils9ChownFileEPKcii)
+    81b0     81b0        0     1                 $a.112
+    81b0     81b0       50     1                 OHOS::BundleFileUtils::ChownFile(char const*, int, int)
+    81fc     81fc        0     1                 $d.113
+    8200     8200       e8     4         lto.tmp:(.text._ZN4OHOS15BundleFileUtils11IsValidPathERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_)
+    8200     8200        0     1                 $a.114
+    8200     8200       e8     1                 OHOS::BundleFileUtils::IsValidPath(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    82dc     82dc        0     1                 $d.115
+    82e8     82e8       90     4         lto.tmp:(.text._ZN4OHOS15BundleFileUtils10GetPathDirERKNSt3__h12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE)
+    82e8     82e8        0     1                 $a.116
+    82e8     82e8       90     1                 OHOS::BundleFileUtils::GetPathDir(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    8374     8374        0     1                 $d.117
+    8378     8378       54     4         lto.tmp:(.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2Ev)
+    8378     8378        0     1                 $a.118
+    8378     8378       54     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::basic_string()
+    83c8     83c8        0     1                 $d.119
+    83cc     83cc       3c     4         lto.tmp:(.text._ZN4OHOS14BundleMsClientD0Ev)
+    83cc     83cc        0     1                 $a.120
+    83cc     83cc       3c     1                 OHOS::BundleMsClient::~BundleMsClient()
+    8404     8404        0     1                 $d.121
+    8408     8408       88     4         lto.tmp:(.text._ZN4OHOS14BundleMsClient9SendReplyEi)
+    8408     8408        0     1                 $a.122
+    8408     8408       88     1                 OHOS::BundleMsClient::SendReply(int)
+    848c     848c        0     1                 $d.123
+    8490     8490      174     4         lto.tmp:(.text._ZN4OHOS13ExtractorUtilD2Ev)
+    8490     8490        0     1                 $a.124
+    8490     8490      174     1                 OHOS::ExtractorUtil::~ExtractorUtil()
+    85f0     85f0        0     1                 $d.125
+    8604     8604       84     4         lto.tmp:(.text._ZNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEED1Ev)
+    8604     8604        0     1                 $a.126
+    8604     8604       84     1                 std::__h::basic_ofstream<char, std::__h::char_traits<char> >::~basic_ofstream()
+    867c     867c        0     1                 $d.127
+    8688     8688       74     4         lto.tmp:(.text._ZNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEE5closeEv)
+    8688     8688        0     1                 $a.128
+    8688     8688       74     1                 std::__h::basic_ofstream<char, std::__h::char_traits<char> >::close()
+    86f8     86f8        0     1                 $d.129
+    86fc     86fc       d0     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE5closeEv)
+    86fc     86fc        0     1                 $a.130
+    86fc     86fc       d0     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::close()
+    87c4     87c4        0     1                 $d.131
+    87cc     87cc       44     4         lto.tmp:(.text._ZNSt3__h8ios_base8setstateEj)
+    87cc     87cc        0     1                 $a.132
+    87cc     87cc       44     1                 std::__h::ios_base::setstate(unsigned int)
+    880c     880c        0     1                 $d.133
+    8810     8810       5c     4         lto.tmp:(.text._ZNSt3__h10unique_ptrI8_IO_FILEPFiPS1_EED2Ev)
+    8810     8810        0     1                 $a.134
+    8810     8810       5c     1                 std::__h::unique_ptr<_IO_FILE, int (*)(_IO_FILE*)>::~unique_ptr()
+    8868     8868        0     1                 $d.135
+    886c     886c       a8     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEED2Ev)
+    886c     886c        0     1                 $a.136
+    886c     886c       a8     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::~basic_filebuf()
+    890c     890c        0     1                 $d.137
+    8914     8914       40     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEED0Ev)
+    8914     8914        0     1                 $a.138
+    8914     8914       40     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::~basic_filebuf()
+    8950     8950        0     1                 $d.139
+    8954     8954      12c     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE)
+    8954     8954        0     1                 $a.140
+    8954     8954      12c     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::imbue(std::__h::locale const&)
+    8a7c     8a7c        0     1                 $d.141
+    8a80     8a80      124     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE6setbufEPci)
+    8a80     8a80        0     1                 $a.142
+    8a80     8a80      124     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::setbuf(char*, int)
+    8ba0     8ba0        0     1                 $d.143
+    8ba4     8ba4      114     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj)
+    8ba4     8ba4        0     1                 $a.144
+    8ba4     8ba4      114     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::seekoff(long long, std::__h::ios_base::seekdir, unsigned int)
+    8cb4     8cb4        0     1                 $d.145
+    8cb8     8cb8       e8     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE7seekposENS_4fposI11__mbstate_tEEj)
+    8cb8     8cb8        0     1                 $a.146
+    8cb8     8cb8       e8     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::seekpos(std::__h::fpos<__mbstate_t>, unsigned int)
+    8d94     8d94        0     1                 $d.147
+    8da0     8da0      250     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE4syncEv)
+    8da0     8da0        0     1                 $a.148
+    8da0     8da0      250     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::sync()
+    8fec     8fec        0     1                 $d.149
+    8ff0     8ff0      2a8     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE9underflowEv)
+    8ff0     8ff0        0     1                 $a.150
+    8ff0     8ff0      2a8     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::underflow()
+    9294     9294        0     1                 $d.151
+    9298     9298       9c     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi)
+    9298     9298        0     1                 $a.152
+    9298     9298       9c     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::pbackfail(int)
+    9330     9330        0     1                 $d.153
+    9334     9334      254     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEE8overflowEi)
+    9334     9334        0     1                 $a.154
+    9334     9334      254     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::overflow(int)
+    957c     957c        0     1                 $d.155
+    9588     9588       30     4         lto.tmp:(.text._ZNSt3__h16__throw_bad_castEv)
+    9588     9588        0     1                 $a.156
+    9588     9588       30     1                 std::__h::__throw_bad_cast()
+    95b0     95b0        0     1                 $d.157
+    95b8     95b8       44     4         lto.tmp:(.text._ZNSt3__h9use_facetINS_7codecvtIcc11__mbstate_tEEEERKT_RKNS_6localeE)
+    95b8     95b8        0     1                 $a.158
+    95b8     95b8       44     1                 std::__h::codecvt<char, char, __mbstate_t> const& std::__h::use_facet<std::__h::codecvt<char, char, __mbstate_t> >(std::__h::locale const&)
+    95f4     95f4        0     1                 $d.159
+    95fc     95fc       40     4         lto.tmp:(.text._ZNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEED0Ev)
+    95fc     95fc        0     1                 $a.160
+    95fc     95fc       40     1                 std::__h::basic_ofstream<char, std::__h::char_traits<char> >::~basic_ofstream()
+    9638     9638        0     1                 $d.161
+    963c     963c       48     4         lto.tmp:(.text._ZTv0_n12_NSt3__h14basic_ofstreamIcNS_11char_traitsIcEEED1Ev)
+    963c     963c        0     1                 $a.162
+    963c     963c       48     1                 virtual thunk to std::__h::basic_ofstream<char, std::__h::char_traits<char> >::~basic_ofstream()
+    9680     9680        0     1                 $d.163
+    9684     9684       48     4         lto.tmp:(.text._ZTv0_n12_NSt3__h14basic_ofstreamIcNS_11char_traitsIcEEED0Ev)
+    9684     9684        0     1                 $a.164
+    9684     9684       48     1                 virtual thunk to std::__h::basic_ofstream<char, std::__h::char_traits<char> >::~basic_ofstream()
+    96c8     96c8        0     1                 $d.165
+    96cc     96cc      128     4         lto.tmp:(.text._ZNSt3__h13basic_filebufIcNS_11char_traitsIcEEEC2Ev)
+    96cc     96cc        0     1                 $a.166
+    96cc     96cc      128     1                 std::__h::basic_filebuf<char, std::__h::char_traits<char> >::basic_filebuf()
+    97e8     97e8        0     1                 $d.167
+    97f4     97f4       58     4         lto.tmp:(.text._ZNSt3__h13__vector_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED2Ev)
+    97f4     97f4        0     1                 $a.168
+    97f4     97f4       58     1                 std::__h::__vector_base<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, std::__h::allocator<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > > >::~__vector_base()
+    9848     9848        0     1                 $d.169
+    984c     984c       44     4         lto.tmp:(.text._ZNSt3__h6__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEED2Ev)
+    984c     984c        0     1                 $a.170
+    984c     984c       44     1                 std::__h::__tree<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, std::__h::__map_value_compare<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, std::__h::less<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > >, true>, std::__h::allocator<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry> > >::~__tree()
+    988c     988c        0     1                 $d.171
+    9890     9890       78     4         lto.tmp:(.text._ZNSt3__h6__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE)
+    9890     9890        0     1                 $a.172
+    9890     9890       78     1                 std::__h::__tree<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, std::__h::__map_value_compare<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, std::__h::less<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > >, true>, std::__h::allocator<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry> > >::destroy(std::__h::__tree_node<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, void*>*)
+    9904     9904        0     1                 $d.173
+    9908     9908       4c     4         lto.tmp:(.text._ZNSt3__h4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryEED2Ev)
+    9908     9908        0     1                 $a.174
+    9908     9908       4c     1                 std::__h::pair<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const, OHOS::ZipEntry>::~pair()
+    9950     9950        0     1                 $d.175
+    9954     9954       58     4         lto.tmp:(.text._ZNSt3__h13__vector_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearEv)
+    9954     9954        0     1                 $a.176
+    9954     9954       58     1                 std::__h::__vector_base<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, std::__h::allocator<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > > >::clear()
+    99a8     99a8        0     1                 $d.177
+    99ac     99ac       3c     4         lto.tmp:(.text._ZNSt3__h6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED2Ev)
+    99ac     99ac        0     1                 $a.178
+    99ac     99ac       3c     1                 std::__h::vector<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, std::__h::allocator<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > > >::~vector()
+    99e4     99e4        0     1                 $d.179
+    99e8     99e8       3c     4         lto.tmp:(.text._ZNSt3__h3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEED2Ev)
+    99e8     99e8        0     1                 $a.180
+    99e8     99e8       3c     1                 std::__h::map<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry, std::__h::less<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > >, std::__h::allocator<std::__h::pair<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const, OHOS::ZipEntry> > >::~map()
+    9a20     9a20        0     1                 $d.181
+    9a24     9a24       40     4         lto.tmp:(.text._ZNSt3__h12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEj)
+    9a24     9a24        0     1                 $a.182
+    9a24     9a24       40     1                 std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >::resize(unsigned int)
+    9a60     9a60        0     1                 $d.183
+    9a64     9a64       60     4         lto.tmp:(.text._ZN4OHOS8ZipEntryaSERKS0_)
+    9a64     9a64        0     1                 $a.184
+    9a64     9a64       60     1                 OHOS::ZipEntry::operator=(OHOS::ZipEntry const&)
+    9ac0     9ac0        0     1                 $d.185
+    9ac4     9ac4       64     4         lto.tmp:(.text._ZNSt3__h14__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev)
+    9ac4     9ac4        0     1                 $a.186
+    9ac4     9ac4       64     1                 std::__h::__split_buffer<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, std::__h::allocator<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > >&>::~__split_buffer()
+    9b24     9b24        0     1                 $d.187
+    9b28     9b28       68     4         lto.tmp:(.text._ZNSt3__h10unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4OHOS8ZipEntryEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEED2Ev)
+    9b28     9b28        0     1                 $a.188
+    9b28     9b28       68     1                 std::__h::unique_ptr<std::__h::__tree_node<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, void*>, std::__h::__tree_node_destructor<std::__h::allocator<std::__h::__tree_node<std::__h::__value_type<std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> >, OHOS::ZipEntry>, void*> > > >::~unique_ptr()
+    9b8c     9b8c        0     1                 $d.189
+    9b90     9b90       70     4         lto.tmp:(.text._ZNSt3__h18__tree_left_rotateIPNS_16__tree_node_baseIPvEEEEvT_)
+    9b90     9b90        0     1                 $a.190
+    9b90     9b90       70     1                 void std::__h::__tree_left_rotate<std::__h::__tree_node_base<void*>*>(std::__h::__tree_node_base<void*>*)
+    9bfc     9bfc        0     1                 $d.191
+    9c00     9c00       70     4         lto.tmp:(.text._ZNSt3__h19__tree_right_rotateIPNS_16__tree_node_baseIPvEEEEvT_)
+    9c00     9c00        0     1                 $a.192
+    9c00     9c00       70     1                 void std::__h::__tree_right_rotate<std::__h::__tree_node_base<void*>*>(std::__h::__tree_node_base<void*>*)
+    9c6c     9c6c        0     1                 $d.193
+    9c70     9c70       5c     4         lto.tmp:(.text._ZN4OHOS8ZipEntryC2Ev)
+    9c70     9c70        0     1                 $a.194
+    9c70     9c70       5c     1                 OHOS::ZipEntry::ZipEntry()
+    9cc8     9cc8        0     1                 $d.195
+    9ccc     9ccc       a0     4         lto.tmp:(.text._ZNSt3__hltIcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EESB_)
+    9ccc     9ccc        0     1                 $a.196
+    9ccc     9ccc       a0     1                 bool std::__h::operator<<char, std::__h::char_traits<char>, std::__h::allocator<char> >(std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&, std::__h::basic_string<char, std::__h::char_traits<char>, std::__h::allocator<char> > const&)
+    9d68     9d68        0     1                 $d.197
+    9d6c     9d6c      130     4         lto.tmp:(.text._ZNK4OHOS7ZipFile16SeekToEntryStartERKNS_8ZipEntryEt)
+    9d6c     9d6c        0     1                 $a.198
+    9d6c     9d6c      130     1                 OHOS::ZipFile::SeekToEntryStart(OHOS::ZipEntry const&, unsigned short) const
+    9e8c     9e8c        0     1                 $d.199
+    9e9c     9e9c        c     1 .init
+    9e9c     9e9c        4     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.init)
+    9e9c     9e9c        0     1                 $a.0
+    9e9c     9e9c        0     1                 _init
+    9ea0     9ea0        8     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.init)
+    9ea0     9ea0        0     1                 $a.0
+    9ea8     9ea8        c     1 .fini
+    9ea8     9ea8        4     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crti.o:(.fini)
+    9ea8     9ea8        0     1                 $a.1
+    9ea8     9ea8        0     1                 _fini
+    9eac     9eac        8     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/crtn.o:(.fini)
+    9eac     9eac        0     1                 $a.1
+    9ec0     9ec0      5f0    16 .plt
+    9ec0     9ec0      5f0    16         <internal>:(.plt)
+    b000     b000        c     4 .init_array
+    b000     b000        4     4         lto.tmp:(.init_array.142)
+    b004     b004        4     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.init_array)
+    b004     b004        4     1                 __init
+    b008     b008        4     4         lto.tmp:(.init_array)
+    b00c     b00c        4     4 .fini_array
+    b00c     b00c        4     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.fini_array)
+    b00c     b00c        4     1                 __fini
+    b010     b010      14c     4 .data.rel.ro
+    b010     b010       1c     4         lto.tmp:(.data.rel.ro._ZN4OHOS12BundleDaemon11invokeFuncsE)
+    b010     b010       1c     1                 OHOS::BundleDaemon::invokeFuncs
+    b02c     b02c       10     4         lto.tmp:(.data.rel.ro._ZTVN4OHOS12BundleDaemonE)
+    b02c     b02c       10     1                 vtable for OHOS::BundleDaemon
+    b03c     b03c       20     4         lto.tmp:(.data.rel.ro._ZTIN4OHOS12BundleDaemonE)
+    b03c     b03c       20     1                 typeinfo for OHOS::BundleDaemon
+    b05c     b05c        8     4         lto.tmp:(.data.rel.ro._ZTI7Service)
+    b05c     b05c        8     1                 typeinfo for Service
+    b064     b064        8     4         lto.tmp:(.data.rel.ro._ZTIN4OHOS10NoCopyableE)
+    b064     b064        8     1                 typeinfo for OHOS::NoCopyable
+    b06c     b06c       10     4         lto.tmp:(.data.rel.ro._ZTVN4OHOS19BundleDaemonHandlerE)
+    b06c     b06c       10     1                 vtable for OHOS::BundleDaemonHandler
+    b07c     b07c        c     4         lto.tmp:(.data.rel.ro._ZTIN4OHOS19BundleDaemonHandlerE)
+    b07c     b07c        c     1                 typeinfo for OHOS::BundleDaemonHandler
+    b088     b088       10     4         lto.tmp:(.data.rel.ro._ZTVN4OHOS14BundleMsClientE)
+    b088     b088       10     1                 vtable for OHOS::BundleMsClient
+    b098     b098        c     4         lto.tmp:(.data.rel.ro._ZTIN4OHOS14BundleMsClientE)
+    b098     b098        c     1                 typeinfo for OHOS::BundleMsClient
+    b0a4     b0a4       10     4         lto.tmp:(.data.rel.ro._ZTTNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEEE)
+    b0a4     b0a4       10     1                 VTT for std::__h::basic_ofstream<char, std::__h::char_traits<char> >
+    b0b4     b0b4       40     4         lto.tmp:(.data.rel.ro._ZTVNSt3__h13basic_filebufIcNS_11char_traitsIcEEEE)
+    b0b4     b0b4       40     1                 vtable for std::__h::basic_filebuf<char, std::__h::char_traits<char> >
+    b0f4     b0f4        c     4         lto.tmp:(.data.rel.ro._ZTINSt3__h13basic_filebufIcNS_11char_traitsIcEEEE)
+    b0f4     b0f4        c     1                 typeinfo for std::__h::basic_filebuf<char, std::__h::char_traits<char> >
+    b100     b100       28     4         lto.tmp:(.data.rel.ro._ZTVNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEEE)
+    b100     b100       28     1                 vtable for std::__h::basic_ofstream<char, std::__h::char_traits<char> >
+    b128     b128       28     4         lto.tmp:(.data.rel.ro._ZTCNSt3__h14basic_ofstreamIcNS_11char_traitsIcEEEE0_NS_13basic_ostreamIcS2_EE)
+    b128     b128       28     1                 construction vtable for std::__h::basic_ostream<char, std::__h::char_traits<char> >-in-std::__h::basic_ofstream<char, std::__h::char_traits<char> >
+    b150     b150        c     4         lto.tmp:(.data.rel.ro._ZTINSt3__h14basic_ofstreamIcNS_11char_traitsIcEEEE)
+    b150     b150        c     1                 typeinfo for std::__h::basic_ofstream<char, std::__h::char_traits<char> >
+    b15c     b15c       f8     4 .dynamic
+    b15c     b15c       f8     4         <internal>:(.dynamic)
+    b254     b254       2c     4 .got
+    b254     b254       2c     4         <internal>:(.got)
+    b280     b280      180     4 .got.plt
+    b280     b280      180     4         <internal>:(.got.plt)
+    b400     b400        0     1 .bss.rel.ro
+    b400     b400        0     1         <internal>:(.bss.rel.ro)
+    c000     c000       20     4 .data
+    c000     c000        4     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.data.__dso_handle)
+    c000     c000        4     1                 __dso_handle
+    c004     c004       1c     4         lto.tmp:(.data._ZN4OHOSL12g_defaultApiE)
+    c004     c004       1c     1                 OHOS::g_defaultApi
+    c020     c020       a4     4 .bss
+    c020     c020        1     1         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.bss.__do_init.__initialized)
+    c020     c020        1     1                 __do_init.__initialized
+    c024     c024       20     4         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.bss.__do_init.__object)
+    c024     c024       20     1                 __do_init.__object
+    c044     c044        1     1         /home/zr/llvm/lib/clang/9.0.0/lib/arm-liteos/clang_rt.crtbegin.o:(.bss.__do_fini.__finalized)
+    c044     c044        1     1                 __do_fini.__finalized
+    c048     c048       7c     4         lto.tmp:(.bss..L_MergedGlobals)
+    c048     c048       7c     1                 .L_MergedGlobals
+    c048     c048        4     1                 guard variable for OHOS::BundleDaemon::GetInstance()::instance
+    c04c     c04c        c     1                 OHOS::(anonymous namespace)::JSON_PATH
+    c058     c058        c     1                 OHOS::(anonymous namespace)::HAP_CODE_PATH
+    c064     c064        c     1                 OHOS::(anonymous namespace)::HAP_DATA_PATH
+    c070     c070        c     1                 OHOS::(anonymous namespace)::SYSTEM_HAP_PATH
+    c07c     c07c        c     1                 OHOS::(anonymous namespace)::THIRD_HAP_PATH
+    c088     c088        c     1                 OHOS::(anonymous namespace)::SDCARD
+    c094     c094        c     1                 OHOS::(anonymous namespace)::STORAGE
+    c0a0     c0a0       24     1                 OHOS::BundleDaemon::GetInstance()::instance
+    c0c4     c0c4        0     1         <internal>:(.bss)
+       0        0       db     1 .comment
+       0        0       db     1         <internal>:(.comment)
+       0        0       38     1 .ARM.attributes
+       0        0       38     1         /home/zr/workspace/gitHub/my-OHOS/prebuilts/lite/sysroot/usr/lib/arm-liteos/Scrt1.o:(.ARM.attributes)
+       0        0     29e0     4 .symtab
+       0        0     29e0     4         <internal>:(.symtab)
+       0        0      10e     1 .shstrtab
+       0        0      10e     1         <internal>:(.shstrtab)
+       0        0     2bb1     1 .strtab
+       0        0     2bb1     1         <internal>:(.strtab)

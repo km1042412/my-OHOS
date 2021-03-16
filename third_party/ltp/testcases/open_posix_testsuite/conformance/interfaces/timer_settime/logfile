@@ -1,0 +1,17 @@
+conformance/interfaces/timer_settime/1-1 compile PASSED
+conformance/interfaces/timer_settime/13-1 compile PASSED
+conformance/interfaces/timer_settime/8-4 compile PASSED
+conformance/interfaces/timer_settime/3-2 compile PASSED
+conformance/interfaces/timer_settime/8-2 compile PASSED
+conformance/interfaces/timer_settime/6-1 compile PASSED
+conformance/interfaces/timer_settime/9-1 compile PASSED
+conformance/interfaces/timer_settime/9-2 compile PASSED
+conformance/interfaces/timer_settime/5-3 compile PASSED
+conformance/interfaces/timer_settime/8-3 compile PASSED
+conformance/interfaces/timer_settime/8-1 compile PASSED
+conformance/interfaces/timer_settime/2-1 compile PASSED
+conformance/interfaces/timer_settime/3-1 compile PASSED
+conformance/interfaces/timer_settime/5-2 compile PASSED
+conformance/interfaces/timer_settime/1-2 compile PASSED
+conformance/interfaces/timer_settime/5-1 compile PASSED
+conformance/interfaces/timer_settime/3-3 compile PASSED
